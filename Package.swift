@@ -1,3 +1,5 @@
+// swift-tools-version:4.0
+
 //
 //  Package.swift
 //  LearnSwift
@@ -6,19 +8,18 @@
 //  Copyright © 2018 Rick Li. All rights reserved.
 //
 
+
 import PackageDescription
 
 let package = Package(
     name: "LearnSwift",
     dependencies: [
-        .Package(url: "https://github.com/a2/MessagePack.swift.git", majorVersion: 3),
+    .package(url: "https://github.com/a2/MessagePack.swift.git", from: "3.0.0"),
 //        .Package(url: "https://github.com/danieltmbr/Bencode.git", majorVersion: 1, minor: 4),
-        .Package(url: "https://github.com/Alamofire/Alamofire.git", majorVersion: 4),
-        .Package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", majorVersion: 0, minor: 8),
-        .Package(url: "https://github.com/nst/BinUtils.git", majorVersion: 0, minor: 1),
-        .Package(url: "https://github.com/IBM-Swift/BlueSocket.git", majorVersion: 0, minor: 12),
-        .Package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", versions: Version(1, 0, 0)..<Version(3, .max, .max)),
-
-
-    ]
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.0.0"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "0.8.0"),
+        .package(url: "https://github.com/nst/BinUtils.git", from: "0.1.0"),
+        .package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: "0.12.0"),
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "3.0.0"),
+        ]
 )

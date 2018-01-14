@@ -1,0 +1,3 @@
+[submodule "BEncode"]
+	path = BEncode
+	url = https://github.com/imben123/BEncodeSwift.git

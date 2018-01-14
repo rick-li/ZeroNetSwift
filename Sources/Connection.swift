@@ -36,11 +36,12 @@ class Connection: NSObject {
     //reqId => Stream
     private var waitingStreams:[UInt16: Stream] = [:]
     private var waitingRequests:[UInt16: Request] = [:]
-    let socket: Socket
+    private let socket: Socket
     private let host: String
     private let port: UInt32
     private let closed: Bool = false
     private var waiting: Bool = false
+    
     //Callbacks
     private let onHandshakeReceived: (Connection, MessagePackValue) -> Void
     private let onFileDownloaded: (Connection, Request) -> Void
@@ -150,9 +151,9 @@ class Connection: NSObject {
     }
     
     func handleMessage(message: MessagePackValue) throws {
-        let to = UInt16(truncatingBitPattern: (message["to"]?.unsignedIntegerValue)!)
+        let to = UInt16(truncatingIfNeeded: (message["to"]?.unsignedIntegerValue)!)
         let req = self.waitingRequests[to]
-        let size = Int(truncatingBitPattern: (message["size"]?.integerValue)!)
+        let size = Int(truncatingIfNeeded: (message["size"]?.integerValue)!)
         
         
         if message["body"] != nil {
@@ -162,8 +163,8 @@ class Connection: NSObject {
         if (req?.data.count)! >= size {
             
             let fileInnerPath = req?.message["params"]!["inner_path"]?.stringValue
-            let destRootPath = "/Users/kl68884/testzeronet/"
-            let filePath = destRootPath + fileInnerPath!
+            
+            let filePath = ROOT_PATH + fileInnerPath!
             
             let fm = FileManager.default
             let fileUrl = URL(fileURLWithPath: filePath)
