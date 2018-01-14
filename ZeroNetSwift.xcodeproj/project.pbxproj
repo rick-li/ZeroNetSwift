@@ -25,14 +25,14 @@
 		E5F02BB1200AA8510018D197 /* Ascii.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9A200AA8510018D197 /* Ascii.swift */; };
 		E5F02BB2200AA8510018D197 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9B200AA8510018D197 /* Bytes.swift */; };
 		E5F02BB3200AA8510018D197 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9B200AA8510018D197 /* Bytes.swift */; };
-		E5F02BB6200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BB5200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift */; };
-		E5F02BB7200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BB5200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift */; };
-		E5F02BB9200AE7930018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BB8200AE7930018D197 /* String+URLEncodingData.swift */; };
-		E5F02BBA200AE7930018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BB8200AE7930018D197 /* String+URLEncodingData.swift */; };
 		E5F02BBC200AEA850018D197 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBB200AEA850018D197 /* PeerInfo.swift */; };
 		E5F02BBD200AEA850018D197 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBB200AEA850018D197 /* PeerInfo.swift */; };
 		E5F02BBF200AF4930018D197 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBE200AF4930018D197 /* FileStorage.swift */; };
 		E5F02BC0200AF4930018D197 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBE200AF4930018D197 /* FileStorage.swift */; };
+		E5F02BCD200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
+		E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
+		E5F02BCF200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
+		E5F02BD0200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
 		OBJ_143 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_149 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Package.swift */; };
 		OBJ_155 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Package.swift */; };
@@ -201,10 +201,10 @@
 		E5F02B97200AA8510018D197 /* ByteStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ByteStream.swift; path = BEncode/ByteStream.swift; sourceTree = "<group>"; };
 		E5F02B9A200AA8510018D197 /* Ascii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ascii.swift; path = BEncode/Ascii.swift; sourceTree = "<group>"; };
 		E5F02B9B200AA8510018D197 /* Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bytes.swift; path = BEncode/Bytes.swift; sourceTree = "<group>"; };
-		E5F02BB5200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+IndexCorrectedDataSlice.swift"; path = "BEncode/BEncode/Data+IndexCorrectedDataSlice.swift"; sourceTree = SOURCE_ROOT; };
-		E5F02BB8200AE7930018D197 /* String+URLEncodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+URLEncodingData.swift"; path = "BEncode/BEncode/String+URLEncodingData.swift"; sourceTree = SOURCE_ROOT; };
 		E5F02BBB200AEA850018D197 /* PeerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerInfo.swift; sourceTree = "<group>"; };
 		E5F02BBE200AF4930018D197 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEncodingData.swift"; sourceTree = "<group>"; };
+		E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+IndexCorrectedDataSlice.swift"; sourceTree = "<group>"; };
 		"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZeroNetSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MessagePack::MessagePack::Product" /* MessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/CryptoSwift.git--6440749087414195235/Package.swift"; sourceTree = "<group>"; };
@@ -394,13 +394,14 @@
 			path = BEncode;
 			sourceTree = SOURCE_ROOT;
 		};
-		E5F02BB4200AE6DA0018D197 /* Extensions */ = {
+		E5F02BCA200BAA8A0018D197 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E5F02BB5200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift */,
-				E5F02BB8200AE7930018D197 /* String+URLEncodingData.swift */,
+				E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */,
+				E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = Sources/Extensions;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_101 /* Alamofire 4.6.0 */ = {
@@ -636,7 +637,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E5F02BB4200AE6DA0018D197 /* Extensions */,
+				E5F02BCA200BAA8A0018D197 /* Extensions */,
 				E5F02B8E200AA8000018D197 /* BEncode */,
 				OBJ_14 /* Connection.swift */,
 				OBJ_15 /* main.swift */,
@@ -941,14 +942,14 @@
 			buildActionMask = 0;
 			files = (
 				E5F02B74200A5E230018D197 /* Peer.swift in Sources */,
-				E5F02BB9200AE7930018D197 /* String+URLEncodingData.swift in Sources */,
 				E5F02BA0200AA8510018D197 /* DataByteStream.swift in Sources */,
 				E5F02B9E200AA8510018D197 /* BEncoder+decode.swift in Sources */,
 				E5F02BB0200AA8510018D197 /* Ascii.swift in Sources */,
 				E5F02BBF200AF4930018D197 /* FileStorage.swift in Sources */,
+				E5F02BCF200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */,
 				E5F02BA8200AA8510018D197 /* BEncoder.swift in Sources */,
 				E5F02BAA200AA8510018D197 /* ByteStream.swift in Sources */,
-				E5F02BB6200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */,
+				E5F02BCD200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */,
 				OBJ_143 /* Package.swift in Sources */,
 				E5F02BB2200AA8510018D197 /* Bytes.swift in Sources */,
 				E5F02B77200A5ECD0018D197 /* Site.swift in Sources */,
@@ -1010,6 +1011,7 @@
 			buildActionMask = 0;
 			files = (
 				E5F02BAB200AA8510018D197 /* ByteStream.swift in Sources */,
+				E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */,
 				E5F02B72200A55060018D197 /* Exercises.swift in Sources */,
 				E5F02BA1200AA8510018D197 /* DataByteStream.swift in Sources */,
 				OBJ_191 /* Connection.swift in Sources */,
@@ -1017,13 +1019,12 @@
 				E5F02BB3200AA8510018D197 /* Bytes.swift in Sources */,
 				E5F02BA9200AA8510018D197 /* BEncoder.swift in Sources */,
 				E5F02BBD200AEA850018D197 /* PeerInfo.swift in Sources */,
-				E5F02BBA200AE7930018D197 /* String+URLEncodingData.swift in Sources */,
 				E5F02B78200A5ECD0018D197 /* Site.swift in Sources */,
 				E5F02B75200A5E230018D197 /* Peer.swift in Sources */,
+				E5F02BD0200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */,
 				E5F02BC0200AF4930018D197 /* FileStorage.swift in Sources */,
 				E5F02B9F200AA8510018D197 /* BEncoder+decode.swift in Sources */,
 				E5F02BB1200AA8510018D197 /* Ascii.swift in Sources */,
-				E5F02BB7200AE7300018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
