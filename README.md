@@ -1,2 +1,2 @@
 # ZeroNetSwift
-ZeronetSwift - Zeronet protocol implemented in Swift
+ZeronetSwift - Zeronet client implemented in Swift
