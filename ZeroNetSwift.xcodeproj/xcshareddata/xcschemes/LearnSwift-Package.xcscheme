@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "LearnSwift::LearnSwift"
-               BuildableName = "LearnSwift"
-               BlueprintName = "LearnSwift"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               BuildableName = "ZeroNetSwift"
+               BlueprintName = "ZeroNetSwift"
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "SwiftyJSON::SwiftyJSON"
                BuildableName = "SwiftyJSON.framework"
                BlueprintName = "SwiftyJSON"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "Socket::Socket"
                BuildableName = "Socket.framework"
                BlueprintName = "Socket"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "BinUtils::BinUtils"
                BuildableName = "BinUtils.framework"
                BlueprintName = "BinUtils"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -73,7 +73,7 @@
                BlueprintIdentifier = "CryptoSwift::CryptoSwift"
                BuildableName = "CryptoSwift.framework"
                BlueprintName = "CryptoSwift"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -87,7 +87,7 @@
                BlueprintIdentifier = "Alamofire::Alamofire"
                BuildableName = "Alamofire.framework"
                BlueprintName = "Alamofire"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -101,7 +101,7 @@
                BlueprintIdentifier = "MessagePack::MessagePack"
                BuildableName = "MessagePack.framework"
                BlueprintName = "MessagePack"
-               ReferencedContainer = "container:LearnSwift.xcodeproj">
+               ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -132,9 +132,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "LearnSwift::LearnSwift"
-            BuildableName = "LearnSwift"
-            BlueprintName = "LearnSwift"
-            ReferencedContainer = "container:LearnSwift.xcodeproj">
+            BuildableName = "ZeroNetSwift"
+            BlueprintName = "ZeroNetSwift"
+            ReferencedContainer = "container:ZeroNetSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

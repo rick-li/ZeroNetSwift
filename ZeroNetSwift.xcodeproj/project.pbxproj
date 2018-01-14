@@ -205,7 +205,7 @@
 		E5F02BB8200AE7930018D197 /* String+URLEncodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+URLEncodingData.swift"; path = "BEncode/BEncode/String+URLEncodingData.swift"; sourceTree = SOURCE_ROOT; };
 		E5F02BBB200AEA850018D197 /* PeerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerInfo.swift; sourceTree = "<group>"; };
 		E5F02BBE200AF4930018D197 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
-		"LearnSwift::LearnSwift::Product" /* LearnSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LearnSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZeroNetSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MessagePack::MessagePack::Product" /* MessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/CryptoSwift.git--6440749087414195235/Package.swift"; sourceTree = "<group>"; };
 		OBJ_102 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/Alamofire.git-6801331143877184500/Package.swift"; sourceTree = "<group>"; };
@@ -456,7 +456,7 @@
 		OBJ_130 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"LearnSwift::LearnSwift::Product" /* LearnSwift */,
+				"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */,
 				"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */,
 				"Socket::Socket::Product" /* Socket.framework */,
 				"BinUtils::BinUtils::Product" /* BinUtils.framework */,
@@ -754,9 +754,9 @@
 			productName = CryptoSwiftPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"LearnSwift::LearnSwift" /* LearnSwift */ = {
+		"LearnSwift::LearnSwift" /* ZeroNetSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_181 /* Build configuration list for PBXNativeTarget "LearnSwift" */;
+			buildConfigurationList = OBJ_181 /* Build configuration list for PBXNativeTarget "ZeroNetSwift" */;
 			buildPhases = (
 				OBJ_184 /* Sources */,
 				OBJ_193 /* Frameworks */,
@@ -771,14 +771,14 @@
 				OBJ_208 /* PBXTargetDependency */,
 				OBJ_210 /* PBXTargetDependency */,
 			);
-			name = LearnSwift;
+			name = ZeroNetSwift;
 			productName = LearnSwift;
-			productReference = "LearnSwift::LearnSwift::Product" /* LearnSwift */;
+			productReference = "LearnSwift::LearnSwift::Product" /* ZeroNetSwift */;
 			productType = "com.apple.product-type.tool";
 		};
-		"LearnSwift::SwiftPMPackageDescription" /* LearnSwiftPackageDescription */ = {
+		"LearnSwift::SwiftPMPackageDescription" /* ZeroNetSwiftPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_139 /* Build configuration list for PBXNativeTarget "LearnSwiftPackageDescription" */;
+			buildConfigurationList = OBJ_139 /* Build configuration list for PBXNativeTarget "ZeroNetSwiftPackageDescription" */;
 			buildPhases = (
 				OBJ_142 /* Sources */,
 			);
@@ -786,7 +786,7 @@
 			);
 			dependencies = (
 			);
-			name = LearnSwiftPackageDescription;
+			name = ZeroNetSwiftPackageDescription;
 			productName = LearnSwiftPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
@@ -905,7 +905,7 @@
 					};
 				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "LearnSwift" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ZeroNetSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -917,14 +917,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"LearnSwift::SwiftPMPackageDescription" /* LearnSwiftPackageDescription */,
+				"LearnSwift::SwiftPMPackageDescription" /* ZeroNetSwiftPackageDescription */,
 				"SwiftyJSON::SwiftPMPackageDescription" /* SwiftyJSONPackageDescription */,
 				"Socket::SwiftPMPackageDescription" /* SocketPackageDescription */,
 				"BinUtils::SwiftPMPackageDescription" /* BinUtilsPackageDescription */,
 				"CryptoSwift::SwiftPMPackageDescription" /* CryptoSwiftPackageDescription */,
 				"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */,
 				"MessagePack::SwiftPMPackageDescription" /* MessagePackPackageDescription */,
-				"LearnSwift::LearnSwift" /* LearnSwift */,
+				"LearnSwift::LearnSwift" /* ZeroNetSwift */,
 				"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */,
 				"Socket::Socket" /* Socket */,
 				"BinUtils::BinUtils" /* BinUtils */,
@@ -1202,6 +1202,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				PRODUCT_NAME = ZeroNetSwiftPackageDescription;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1211,6 +1212,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				PRODUCT_NAME = ZeroNetSwiftPackageDescription;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1335,6 +1337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = ZeroNetSwift;
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -1355,6 +1358,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = ZeroNetSwift;
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -1372,7 +1376,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/SwiftyJSON_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/SwiftyJSON_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1395,7 +1399,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/SwiftyJSON_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/SwiftyJSON_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1418,7 +1422,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/Socket_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/Socket_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1440,7 +1444,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/Socket_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/Socket_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1462,7 +1466,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/BinUtils_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/BinUtils_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1485,7 +1489,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/BinUtils_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/BinUtils_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1508,7 +1512,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/CryptoSwift_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/CryptoSwift_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1530,7 +1534,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/CryptoSwift_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/CryptoSwift_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1574,7 +1578,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/Alamofire_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/Alamofire_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1597,7 +1601,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/Alamofire_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/Alamofire_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1620,7 +1624,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/MessagePack_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/MessagePack_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1643,7 +1647,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/MessagePack_Info.plist;
+				INFOPLIST_FILE = ZeroNetSwift.xcodeproj/MessagePack_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -1680,7 +1684,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_139 /* Build configuration list for PBXNativeTarget "LearnSwiftPackageDescription" */ = {
+		OBJ_139 /* Build configuration list for PBXNativeTarget "ZeroNetSwiftPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_140 /* Debug */,
@@ -1743,7 +1747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_181 /* Build configuration list for PBXNativeTarget "LearnSwift" */ = {
+		OBJ_181 /* Build configuration list for PBXNativeTarget "ZeroNetSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_182 /* Debug */,
@@ -1752,7 +1756,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "LearnSwift" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "ZeroNetSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
