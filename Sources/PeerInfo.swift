@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TorrentPeer {
+struct PeerInfo {
     let ip: String
     let port: UInt16
     let peerId: Data?
@@ -32,9 +32,9 @@ struct TorrentPeer {
         self.peerId = dictionary["peer id"] as? Data
     }
     
-    static func peersInfoFromBinaryModel(_ data: Data) -> [TorrentPeer] {
+    static func peersInfoFromBinaryModel(_ data: Data) -> [PeerInfo] {
         let numberOfPeers = data.count / 6
-        var result: [TorrentPeer] = []
+        var result: [PeerInfo] = []
         for i in 0..<numberOfPeers {
             let ip1 = Int(data.correctingIndicies[i*6])
             let ip2 = Int(data.correctingIndicies[i*6 + 1])
@@ -46,15 +46,15 @@ struct TorrentPeer {
                 $0.pointee
             }
             
-            let peer = TorrentPeer(ip: "\(ip1).\(ip2).\(ip3).\(ip4)", port: port, peerId: nil)
+            let peer = PeerInfo(ip: "\(ip1).\(ip2).\(ip3).\(ip4)", port: port, peerId: nil)
             result.append(peer)
         }
         return result
     }
 }
 
-extension TorrentPeer: Equatable {
-    static func ==(_ lhs: TorrentPeer, _ rhs: TorrentPeer) -> Bool {
+extension PeerInfo: Equatable {
+    static func ==(_ lhs: PeerInfo, _ rhs: PeerInfo) -> Bool {
         let peerIdsMatch = (lhs.peerId == nil || rhs.peerId == nil || lhs.peerId == rhs.peerId)
         return (lhs.ip == rhs.ip && lhs.port == rhs.port && peerIdsMatch)
     }
