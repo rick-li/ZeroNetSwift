@@ -10,22 +10,32 @@ import Alamofire
 import CryptoSwift
 import SwiftyJSON
 
-class ZNFile: NSObject {
-    
-}
-enum PeerError: Error {
+//class ZNFile: NSObject {
+//    
+//}
+enum ZeroNetError: Error {
     case noPeerFound
+    case peerReturnsError
 }
 class Site : NSObject {
-    private var siteAddr:String
-    private var existFiles: [String: ZNFile] = [:]
+    private let context: ZeroNet
+    private var siteAddr: String
+    private let sitePath: String
+//    private var existFiles: [String: ZNFile] = [:]
     private var peerId:String = ""
     private var peerInfos: [PeerInfo] = []
     private var activePeer: Peer? = nil
     private var pendingFileList: [String] = []
     
-    init(siteAddr: String){
+    init(context: ZeroNet, siteAddr: String){
+        self.context = context
         self.siteAddr = siteAddr
+        self.sitePath = context.rootPath + "/" + siteAddress
+        do {
+            try fm.createDirectory(atPath: self.sitePath, withIntermediateDirectories: true)
+        } catch {
+            print("Failed to create site dir " + self.sitePath)
+        }
         super.init()
         //TODO load existing files
     }
@@ -74,10 +84,10 @@ class Site : NSObject {
             }
             self.pendingFileList = self.pendingFileList.filter({ item in item != innerPath })
         } else {
-          print("Site \(self.siteAddr) is downloaded.")
+          print("!!!=Congratulations=!!! Site \(self.siteAddr) is downloaded.")
         }
         
-        let filePath = ROOT_PATH + innerPath
+        let filePath = self.sitePath + "/" + innerPath
         let fm = FileManager.default
         let fileUrl = URL(fileURLWithPath: filePath)
         let fileDir = fileUrl.deletingLastPathComponent()
@@ -109,19 +119,14 @@ class Site : NSObject {
     }
     
     func loadPeersFromTracker(trackerIdx: Int = 0, onLoaded: @escaping ([PeerInfo]) -> ()) {
-        
-        let trackers = [
-            "http://tracker.opentrackr.org:1337/announce",
-            "http://explodie.org:6969/announce",
-            "http://tracker1.wasabii.com.tw:6969/announce"
-        ]
+        let trackers = context.trackers
         
         if trackerIdx >= trackers.count {
             onLoaded([])
         }
         
         let tracker = trackers[trackerIdx]
-        let url = tracker + "?uploaded=0&downloaded=0&numwant=30&compact=1&event=started&peer_id=-ZN0060-obXBYFgyrTLX&port=15441&left=0&info_hash=" + String(urlEncodingData: Data(bytes: Digest.sha1(siteAddress.bytes)))
+        let url = tracker + "?uploaded=0&downloaded=0&numwant=\(ZeroNet.Constants.PEER_NUM_WANT)&compact=1&event=started&peer_id=-ZN0060-obXBYFgyrTLX&port=\(ZeroNet.Constants.FILE_PORT)&left=0&info_hash=" + String(urlEncodingData: Data(bytes: Digest.sha1(siteAddress.bytes)))
         
         print("Loading peer from - ", url)
         Alamofire.request(url).response(queue: mainQueue) { response in
@@ -133,7 +138,7 @@ class Site : NSObject {
                 })
                 
                 if peers.count == 0 {
-                    throw PeerError.noPeerFound
+                    throw ZeroNetError.noPeerFound
                 }
                 
                 onLoaded(peers)

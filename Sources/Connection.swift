@@ -161,6 +161,11 @@ class Connection: NSObject {
     func handleMessage(message: MessagePackValue) throws {
         let to = UInt16(truncatingIfNeeded: (message["to"]?.unsignedIntegerValue)!)
         let req = self.waitingRequests[to]
+        if message["error"] != nil {
+            print("Peer returns " + (message["error"]?.stringValue)!)
+            throw ZeroNetError.peerReturnsError
+        }
+        
         let size = Int(truncatingIfNeeded: (message["size"]?.integerValue)!)
         
         if message["body"] != nil {
@@ -169,8 +174,8 @@ class Connection: NSObject {
         
         if (req?.data.count)! >= size {
             let fileInnerPath = req?.message["params"]!["inner_path"]?.stringValue
-            self.onFileDownloaded(fileInnerPath!, (req?.data)!)
             print("Download completed - " + fileInnerPath!)
+            self.onFileDownloaded(fileInnerPath!, (req?.data)!)
         }else{
             let newLocation = message["location"]!.unsignedIntegerValue ?? 0
             print("request more contents from new location: ", newLocation)

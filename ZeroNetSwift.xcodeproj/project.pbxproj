@@ -33,6 +33,8 @@
 		E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
 		E5F02BCF200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
 		E5F02BD0200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
+		E5F02BD2200D1E810018D197 /* ZeroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BD1200D1E810018D197 /* ZeroNet.swift */; };
+		E5F02BD3200D1E810018D197 /* ZeroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BD1200D1E810018D197 /* ZeroNet.swift */; };
 		OBJ_143 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_149 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Package.swift */; };
 		OBJ_155 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Package.swift */; };
@@ -205,6 +207,7 @@
 		E5F02BBE200AF4930018D197 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
 		E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEncodingData.swift"; sourceTree = "<group>"; };
 		E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+IndexCorrectedDataSlice.swift"; sourceTree = "<group>"; };
+		E5F02BD1200D1E810018D197 /* ZeroNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroNet.swift; sourceTree = "<group>"; };
 		"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZeroNetSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MessagePack::MessagePack::Product" /* MessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/CryptoSwift.git--6440749087414195235/Package.swift"; sourceTree = "<group>"; };
@@ -646,6 +649,7 @@
 				E5F02B76200A5ECD0018D197 /* Site.swift */,
 				E5F02BBB200AEA850018D197 /* PeerInfo.swift */,
 				E5F02BBE200AF4930018D197 /* FileStorage.swift */,
+				E5F02BD1200D1E810018D197 /* ZeroNet.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -953,6 +957,7 @@
 				OBJ_143 /* Package.swift in Sources */,
 				E5F02BB2200AA8510018D197 /* Bytes.swift in Sources */,
 				E5F02B77200A5ECD0018D197 /* Site.swift in Sources */,
+				E5F02BD2200D1E810018D197 /* ZeroNet.swift in Sources */,
 				E5F02BBC200AEA850018D197 /* PeerInfo.swift in Sources */,
 				E5F02B71200A55060018D197 /* Exercises.swift in Sources */,
 			);
@@ -1011,6 +1016,7 @@
 			buildActionMask = 0;
 			files = (
 				E5F02BAB200AA8510018D197 /* ByteStream.swift in Sources */,
+				E5F02BD3200D1E810018D197 /* ZeroNet.swift in Sources */,
 				E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */,
 				E5F02B72200A55060018D197 /* Exercises.swift in Sources */,
 				E5F02BA1200AA8510018D197 /* DataByteStream.swift in Sources */,
@@ -1329,6 +1335,7 @@
 		OBJ_182 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -1350,6 +1357,7 @@
 		OBJ_183 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -1551,6 +1559,7 @@
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1665,6 +1674,7 @@
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
