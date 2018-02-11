@@ -1,0 +1,4 @@
+framework module SwiftyJSON {
+    header "SwiftyJSON-Swift.h"
+    requires objc
+}

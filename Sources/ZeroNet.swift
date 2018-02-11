@@ -9,13 +9,27 @@ import Foundation
 
 
 let mainQueue = DispatchQueue(label: "zeronet", qos: .background, attributes: .concurrent)
-class ZeroNet : NSObject{
-    
+
+public enum ZeroNetStatus : String {
+    case fileCompleted, fileFailed, siteCompleted, failed, others
+}
+
+public protocol LoggerProtocol {
+    func log(_ str: String, _ status: ZeroNetStatus?)
+}
+
+class DefaultLogger : LoggerProtocol {
+    func log(_ str: String, _ status: ZeroNetStatus? = .others) {
+        print( String(describing: status) + ": " + str )
+    }
+}
+
+public class ZeroNet : NSObject{
     public let rootPath:String
     public let trackers:[String]
     public let sites:[String]
     public let peerId:String
-    
+    public var logger:LoggerProtocol = DefaultLogger()
     
     public struct Constants {
         static let FILE_PORT: Int = 0 //Can't serve file in ios.
@@ -23,7 +37,7 @@ class ZeroNet : NSObject{
         static let VERSION: String = "0.6.0"
     }
     
-    init(rootPath: String, trackers: [String], sites: [String]){
+    public init(rootPath: String, trackers: [String], sites: [String]){
         self.rootPath = rootPath
         self.trackers = trackers
         self.sites = sites
@@ -33,7 +47,11 @@ class ZeroNet : NSObject{
         super.init()
     }
     
-    func start(){
+    public func setLogger(logger: LoggerProtocol) {
+        self.logger = logger
+    }
+    
+    public func start(){
         for siteAddr in self.sites {
             let site = Site(context: self, siteAddr: siteAddr)
             site.start()

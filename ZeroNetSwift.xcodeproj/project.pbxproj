@@ -7,34 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E586E6092012F88C00F0BDE8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		E586E60A2012F88C00F0BDE8 /* BinUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BinUtils::BinUtils::Product" /* BinUtils.framework */; };
+		E586E60B2012F88C00F0BDE8 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */; };
+		E586E60C2012F88C00F0BDE8 /* MessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MessagePack::MessagePack::Product" /* MessagePack.framework */; };
+		E586E60D2012F88C00F0BDE8 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
+		E586E60E2012F88C00F0BDE8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		E586E60F2012F8A400F0BDE8 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
+		E586E6102012F8A400F0BDE8 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
+		E586E6112012F8A400F0BDE8 /* Ascii.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9A200AA8510018D197 /* Ascii.swift */; };
+		E586E6122012F8A400F0BDE8 /* BEncode.h in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B95200AA8510018D197 /* BEncode.h */; };
+		E586E6132012F8A400F0BDE8 /* BEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B96200AA8510018D197 /* BEncoder.swift */; };
+		E586E6142012F8A400F0BDE8 /* BEncoder+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B90200AA8500018D197 /* BEncoder+decode.swift */; };
+		E586E6152012F8A400F0BDE8 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9B200AA8510018D197 /* Bytes.swift */; };
+		E586E6162012F8A400F0BDE8 /* ByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B97200AA8510018D197 /* ByteStream.swift */; };
+		E586E6172012F8A400F0BDE8 /* DataByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B91200AA8500018D197 /* DataByteStream.swift */; };
+		E586E6182012F8A400F0BDE8 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Connection.swift */; };
+		E586E6192012F8A400F0BDE8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
+		E586E61A2012F8A400F0BDE8 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B70200A55060018D197 /* Exercises.swift */; };
+		E586E61B2012F8A400F0BDE8 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B73200A5E230018D197 /* Peer.swift */; };
+		E586E61C2012F8A400F0BDE8 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B76200A5ECD0018D197 /* Site.swift */; };
+		E586E61D2012F8A400F0BDE8 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBB200AEA850018D197 /* PeerInfo.swift */; };
+		E586E61E2012F8A400F0BDE8 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBE200AF4930018D197 /* FileStorage.swift */; };
+		E586E61F2012F8A400F0BDE8 /* ZeroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BD1200D1E810018D197 /* ZeroNet.swift */; };
+		E586E6232012F9C000F0BDE8 /* ZeroNetSwiftFramework.h in Sources */ = {isa = PBXBuildFile; fileRef = E586E6032012F87A00F0BDE8 /* ZeroNetSwiftFramework.h */; };
 		E5F02B71200A55060018D197 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B70200A55060018D197 /* Exercises.swift */; };
-		E5F02B72200A55060018D197 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B70200A55060018D197 /* Exercises.swift */; };
 		E5F02B74200A5E230018D197 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B73200A5E230018D197 /* Peer.swift */; };
-		E5F02B75200A5E230018D197 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B73200A5E230018D197 /* Peer.swift */; };
 		E5F02B77200A5ECD0018D197 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B76200A5ECD0018D197 /* Site.swift */; };
-		E5F02B78200A5ECD0018D197 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B76200A5ECD0018D197 /* Site.swift */; };
 		E5F02B9E200AA8510018D197 /* BEncoder+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B90200AA8500018D197 /* BEncoder+decode.swift */; };
-		E5F02B9F200AA8510018D197 /* BEncoder+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B90200AA8500018D197 /* BEncoder+decode.swift */; };
 		E5F02BA0200AA8510018D197 /* DataByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B91200AA8500018D197 /* DataByteStream.swift */; };
-		E5F02BA1200AA8510018D197 /* DataByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B91200AA8500018D197 /* DataByteStream.swift */; };
 		E5F02BA8200AA8510018D197 /* BEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B96200AA8510018D197 /* BEncoder.swift */; };
-		E5F02BA9200AA8510018D197 /* BEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B96200AA8510018D197 /* BEncoder.swift */; };
 		E5F02BAA200AA8510018D197 /* ByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B97200AA8510018D197 /* ByteStream.swift */; };
-		E5F02BAB200AA8510018D197 /* ByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B97200AA8510018D197 /* ByteStream.swift */; };
 		E5F02BB0200AA8510018D197 /* Ascii.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9A200AA8510018D197 /* Ascii.swift */; };
-		E5F02BB1200AA8510018D197 /* Ascii.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9A200AA8510018D197 /* Ascii.swift */; };
 		E5F02BB2200AA8510018D197 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9B200AA8510018D197 /* Bytes.swift */; };
-		E5F02BB3200AA8510018D197 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02B9B200AA8510018D197 /* Bytes.swift */; };
 		E5F02BBC200AEA850018D197 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBB200AEA850018D197 /* PeerInfo.swift */; };
-		E5F02BBD200AEA850018D197 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBB200AEA850018D197 /* PeerInfo.swift */; };
 		E5F02BBF200AF4930018D197 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBE200AF4930018D197 /* FileStorage.swift */; };
-		E5F02BC0200AF4930018D197 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BBE200AF4930018D197 /* FileStorage.swift */; };
 		E5F02BCD200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
-		E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */; };
 		E5F02BCF200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
-		E5F02BD0200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */; };
 		E5F02BD2200D1E810018D197 /* ZeroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BD1200D1E810018D197 /* ZeroNet.swift */; };
-		E5F02BD3200D1E810018D197 /* ZeroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02BD1200D1E810018D197 /* ZeroNet.swift */; };
 		OBJ_143 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_149 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Package.swift */; };
 		OBJ_155 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Package.swift */; };
@@ -42,14 +52,6 @@
 		OBJ_167 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* Package.swift */; };
 		OBJ_173 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Package.swift */; };
 		OBJ_179 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Package.swift */; };
-		OBJ_191 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Connection.swift */; };
-		OBJ_192 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
-		OBJ_194 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
-		OBJ_195 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
-		OBJ_196 /* BinUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BinUtils::BinUtils::Product" /* BinUtils.framework */; };
-		OBJ_197 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */; };
-		OBJ_198 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
-		OBJ_199 /* MessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MessagePack::MessagePack::Product" /* MessagePack.framework */; };
 		OBJ_216 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SwiftyJSON.swift */; };
 		OBJ_222 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Socket.swift */; };
 		OBJ_223 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SocketProtocols.swift */; };
@@ -144,55 +146,13 @@
 		OBJ_332 /* Unpack.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Unpack.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E5D66FB22005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
-			remoteInfo = SwiftyJSON;
-		};
-		E5D66FB32005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Socket::Socket";
-			remoteInfo = Socket;
-		};
-		E5D66FB42005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "BinUtils::BinUtils";
-			remoteInfo = BinUtils;
-		};
-		E5D66FB52005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "CryptoSwift::CryptoSwift";
-			remoteInfo = CryptoSwift;
-		};
-		E5D66FB62005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Alamofire::Alamofire";
-			remoteInfo = Alamofire;
-		};
-		E5D66FB72005C7990035D535 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "MessagePack::MessagePack";
-			remoteInfo = MessagePack;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		"Alamofire::Alamofire::Product" /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"BinUtils::BinUtils::Product" /* BinUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BinUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586E6012012F87900F0BDE8 /* ZeroNetSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZeroNetSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586E6032012F87A00F0BDE8 /* ZeroNetSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroNetSwiftFramework.h; sourceTree = "<group>"; };
+		E586E6272012FE7900F0BDE8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F02B70200A55060018D197 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		E5F02B73200A5E230018D197 /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
 		E5F02B76200A5ECD0018D197 /* Site.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
@@ -208,7 +168,6 @@
 		E5F02BCB200BAA8A0018D197 /* String+URLEncodingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEncodingData.swift"; sourceTree = "<group>"; };
 		E5F02BCC200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+IndexCorrectedDataSlice.swift"; sourceTree = "<group>"; };
 		E5F02BD1200D1E810018D197 /* ZeroNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroNet.swift; sourceTree = "<group>"; };
-		"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZeroNetSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MessagePack::MessagePack::Product" /* MessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/CryptoSwift.git--6440749087414195235/Package.swift"; sourceTree = "<group>"; };
 		OBJ_102 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/kl68884/projects/learn/LearnSwift/.build/checkouts/Alamofire.git-6801331143877184500/Package.swift"; sourceTree = "<group>"; };
@@ -318,16 +277,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_193 /* Frameworks */ = {
+		E586E5FD2012F87900F0BDE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
+			buildActionMask = 2147483647;
 			files = (
-				OBJ_194 /* SwiftyJSON.framework in Frameworks */,
-				OBJ_195 /* Socket.framework in Frameworks */,
-				OBJ_196 /* BinUtils.framework in Frameworks */,
-				OBJ_197 /* CryptoSwift.framework in Frameworks */,
-				OBJ_198 /* Alamofire.framework in Frameworks */,
-				OBJ_199 /* MessagePack.framework in Frameworks */,
+				E586E6092012F88C00F0BDE8 /* Alamofire.framework in Frameworks */,
+				E586E60A2012F88C00F0BDE8 /* BinUtils.framework in Frameworks */,
+				E586E60B2012F88C00F0BDE8 /* CryptoSwift.framework in Frameworks */,
+				E586E60C2012F88C00F0BDE8 /* MessagePack.framework in Frameworks */,
+				E586E60D2012F88C00F0BDE8 /* Socket.framework in Frameworks */,
+				E586E60E2012F88C00F0BDE8 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,13 +419,13 @@
 		OBJ_130 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"LearnSwift::LearnSwift::Product" /* ZeroNetSwift */,
 				"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */,
 				"Socket::Socket::Product" /* Socket.framework */,
 				"BinUtils::BinUtils::Product" /* BinUtils.framework */,
 				"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */,
 				"Alamofire::Alamofire::Product" /* Alamofire.framework */,
 				"MessagePack::MessagePack::Product" /* MessagePack.framework */,
+				E586E6012012F87900F0BDE8 /* ZeroNetSwiftFramework.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -640,6 +599,8 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E586E6272012FE7900F0BDE8 /* Info.plist */,
+				E586E6032012F87A00F0BDE8 /* ZeroNetSwiftFramework.h */,
 				E5F02BCA200BAA8A0018D197 /* Extensions */,
 				E5F02B8E200AA8000018D197 /* BEncode */,
 				OBJ_14 /* Connection.swift */,
@@ -667,6 +628,16 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E586E5FE2012F87900F0BDE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		"Alamofire::Alamofire" /* Alamofire */ = {
@@ -759,27 +730,23 @@
 			productName = CryptoSwiftPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"LearnSwift::LearnSwift" /* ZeroNetSwift */ = {
+		E586E6002012F87900F0BDE8 /* ZeroNetSwiftFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_181 /* Build configuration list for PBXNativeTarget "ZeroNetSwift" */;
+			buildConfigurationList = E586E6062012F87A00F0BDE8 /* Build configuration list for PBXNativeTarget "ZeroNetSwiftFramework" */;
 			buildPhases = (
-				OBJ_184 /* Sources */,
-				OBJ_193 /* Frameworks */,
+				E586E5FC2012F87900F0BDE8 /* Sources */,
+				E586E5FD2012F87900F0BDE8 /* Frameworks */,
+				E586E5FE2012F87900F0BDE8 /* Headers */,
+				E586E5FF2012F87900F0BDE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_200 /* PBXTargetDependency */,
-				OBJ_202 /* PBXTargetDependency */,
-				OBJ_204 /* PBXTargetDependency */,
-				OBJ_206 /* PBXTargetDependency */,
-				OBJ_208 /* PBXTargetDependency */,
-				OBJ_210 /* PBXTargetDependency */,
 			);
-			name = ZeroNetSwift;
-			productName = LearnSwift;
-			productReference = "LearnSwift::LearnSwift::Product" /* ZeroNetSwift */;
-			productType = "com.apple.product-type.tool";
+			name = ZeroNetSwiftFramework;
+			productName = ZeroNetSwiftFramework;
+			productReference = E586E6012012F87900F0BDE8 /* ZeroNetSwiftFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		"LearnSwift::SwiftPMPackageDescription" /* ZeroNetSwiftPackageDescription */ = {
 			isa = PBXNativeTarget;
@@ -899,8 +866,9 @@
 					"BinUtils::BinUtils" = {
 						LastSwiftMigration = 0920;
 					};
-					"LearnSwift::LearnSwift" = {
-						LastSwiftMigration = 0920;
+					E586E6002012F87900F0BDE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 					"MessagePack::MessagePack" = {
 						LastSwiftMigration = 0920;
@@ -929,18 +897,53 @@
 				"CryptoSwift::SwiftPMPackageDescription" /* CryptoSwiftPackageDescription */,
 				"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */,
 				"MessagePack::SwiftPMPackageDescription" /* MessagePackPackageDescription */,
-				"LearnSwift::LearnSwift" /* ZeroNetSwift */,
 				"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */,
 				"Socket::Socket" /* Socket */,
 				"BinUtils::BinUtils" /* BinUtils */,
 				"CryptoSwift::CryptoSwift" /* CryptoSwift */,
 				"Alamofire::Alamofire" /* Alamofire */,
 				"MessagePack::MessagePack" /* MessagePack */,
+				E586E6002012F87900F0BDE8 /* ZeroNetSwiftFramework */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E586E5FF2012F87900F0BDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E586E5FC2012F87900F0BDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586E6232012F9C000F0BDE8 /* ZeroNetSwiftFramework.h in Sources */,
+				E586E60F2012F8A400F0BDE8 /* String+URLEncodingData.swift in Sources */,
+				E586E6102012F8A400F0BDE8 /* Data+IndexCorrectedDataSlice.swift in Sources */,
+				E586E6112012F8A400F0BDE8 /* Ascii.swift in Sources */,
+				E586E6122012F8A400F0BDE8 /* BEncode.h in Sources */,
+				E586E6132012F8A400F0BDE8 /* BEncoder.swift in Sources */,
+				E586E6142012F8A400F0BDE8 /* BEncoder+decode.swift in Sources */,
+				E586E6152012F8A400F0BDE8 /* Bytes.swift in Sources */,
+				E586E6162012F8A400F0BDE8 /* ByteStream.swift in Sources */,
+				E586E6172012F8A400F0BDE8 /* DataByteStream.swift in Sources */,
+				E586E6182012F8A400F0BDE8 /* Connection.swift in Sources */,
+				E586E6192012F8A400F0BDE8 /* main.swift in Sources */,
+				E586E61A2012F8A400F0BDE8 /* Exercises.swift in Sources */,
+				E586E61B2012F8A400F0BDE8 /* Peer.swift in Sources */,
+				E586E61C2012F8A400F0BDE8 /* Site.swift in Sources */,
+				E586E61D2012F8A400F0BDE8 /* PeerInfo.swift in Sources */,
+				E586E61E2012F8A400F0BDE8 /* FileStorage.swift in Sources */,
+				E586E61F2012F8A400F0BDE8 /* ZeroNet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -1008,29 +1011,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_179 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_184 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				E5F02BAB200AA8510018D197 /* ByteStream.swift in Sources */,
-				E5F02BD3200D1E810018D197 /* ZeroNet.swift in Sources */,
-				E5F02BCE200BAA8A0018D197 /* String+URLEncodingData.swift in Sources */,
-				E5F02B72200A55060018D197 /* Exercises.swift in Sources */,
-				E5F02BA1200AA8510018D197 /* DataByteStream.swift in Sources */,
-				OBJ_191 /* Connection.swift in Sources */,
-				OBJ_192 /* main.swift in Sources */,
-				E5F02BB3200AA8510018D197 /* Bytes.swift in Sources */,
-				E5F02BA9200AA8510018D197 /* BEncoder.swift in Sources */,
-				E5F02BBD200AEA850018D197 /* PeerInfo.swift in Sources */,
-				E5F02B78200A5ECD0018D197 /* Site.swift in Sources */,
-				E5F02B75200A5E230018D197 /* Peer.swift in Sources */,
-				E5F02BD0200BAA8A0018D197 /* Data+IndexCorrectedDataSlice.swift in Sources */,
-				E5F02BC0200AF4930018D197 /* FileStorage.swift in Sources */,
-				E5F02B9F200AA8510018D197 /* BEncoder+decode.swift in Sources */,
-				E5F02BB1200AA8510018D197 /* Ascii.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,40 +1150,138 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		OBJ_200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
-			targetProxy = E5D66FB22005C7990035D535 /* PBXContainerItemProxy */;
-		};
-		OBJ_202 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Socket::Socket" /* Socket */;
-			targetProxy = E5D66FB32005C7990035D535 /* PBXContainerItemProxy */;
-		};
-		OBJ_204 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "BinUtils::BinUtils" /* BinUtils */;
-			targetProxy = E5D66FB42005C7990035D535 /* PBXContainerItemProxy */;
-		};
-		OBJ_206 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "CryptoSwift::CryptoSwift" /* CryptoSwift */;
-			targetProxy = E5D66FB52005C7990035D535 /* PBXContainerItemProxy */;
-		};
-		OBJ_208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Alamofire::Alamofire" /* Alamofire */;
-			targetProxy = E5D66FB62005C7990035D535 /* PBXContainerItemProxy */;
-		};
-		OBJ_210 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "MessagePack::MessagePack" /* MessagePack */;
-			targetProxy = E5D66FB72005C7990035D535 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		E586E6072012F87A00F0BDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rick.ZeroNetSwiftFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E586E6082012F87A00F0BDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_CFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rick.ZeroNetSwiftFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		OBJ_140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1329,50 +1407,6 @@
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		OBJ_182 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/LearnSwift_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_NAME = ZeroNetSwift;
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = LearnSwift;
-			};
-			name = Debug;
-		};
-		OBJ_183 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LearnSwift.xcodeproj/LearnSwift_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_NAME = ZeroNetSwift;
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = LearnSwift;
 			};
 			name = Release;
 		};
@@ -1560,6 +1594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BITCODE_GENERATION_MODE = marker;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1569,9 +1604,11 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode-marker";
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1582,6 +1619,7 @@
 		OBJ_301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = marker;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1605,6 +1643,7 @@
 		OBJ_302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1675,6 +1714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BITCODE_GENERATION_MODE = bitcode;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -1682,9 +1722,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_OPTIMIZATION_LEVEL = s;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1695,6 +1737,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E586E6062012F87A00F0BDE8 /* Build configuration list for PBXNativeTarget "ZeroNetSwiftFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586E6072012F87A00F0BDE8 /* Debug */,
+				E586E6082012F87A00F0BDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_139 /* Build configuration list for PBXNativeTarget "ZeroNetSwiftPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1754,15 +1805,6 @@
 			buildConfigurations = (
 				OBJ_176 /* Debug */,
 				OBJ_177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_181 /* Build configuration list for PBXNativeTarget "ZeroNetSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_182 /* Debug */,
-				OBJ_183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

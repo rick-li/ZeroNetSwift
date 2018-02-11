@@ -11,13 +11,15 @@ import MessagePack
 
 class Peer : NSObject {
     private var isContentJsonFound = false
+    private var context: ZeroNet
     private var host: String
     private var port: Int
     private var siteAddress: String
     private var conn: Connection? = nil
     private var onFileDownloaded: ((String, Data) -> ())
     
-    init?(host:String, port: Int, siteAddress: String, onFileDownloaded: @escaping (String, Data) -> ()) {
+    init?(context: ZeroNet, host:String, port: Int, siteAddress: String, onFileDownloaded: @escaping (String, Data) -> ()) {
+        self.context = context
         self.host = host
         self.port = port
         self.siteAddress = siteAddress
@@ -26,7 +28,7 @@ class Peer : NSObject {
     }
     
     func connect() throws {
-        try self.conn = Connection(host: host, port: UInt32(port),
+        try self.conn = Connection(context: context, host: host, port: UInt32(port),
                 onFileDownloaded: self.onFileDownloaded)
     }
     

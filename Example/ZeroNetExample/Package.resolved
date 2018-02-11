@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "bc973c5311ce3db3f01a9fcde027fb11fa2254bf",
+          "version": "4.6.0"
+        }
+      },
+      {
+        "package": "BinUtils",
+        "repositoryURL": "https://github.com/nst/BinUtils.git",
+        "state": {
+          "branch": null,
+          "revision": "512d3801fedd91feb8593fc13938bacb6fb7317e",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "0f5c068f1689984b47a5651e2188d2e95365e403",
+          "version": "0.8.1"
+        }
+      },
+      {
+        "package": "MessagePack",
+        "repositoryURL": "https://github.com/a2/MessagePack.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "393dbb4113397067416123d399c3805559ed8621",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "Socket",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
+        "state": {
+          "branch": null,
+          "revision": "15ad09461f19a993fe5efb0e42b323adafc3533d",
+          "version": "0.12.83"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "dadbfcffd5f51e2b488a26e83f188d96755e5393",
+          "version": "3.1.4"
+        }
+      },
+      {
+        "package": "ZeroNetSwift",
+        "repositoryURL": "/Users/kl68884/projects/learn/ZeroNetSwift",
+        "state": {
+          "branch": "master",
+          "revision": "4619525dc8091e3299d22928c0e56e276f1da75d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

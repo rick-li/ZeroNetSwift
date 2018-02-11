@@ -1,0 +1,4 @@
+framework module BinUtils {
+    header "BinUtils-Swift.h"
+    requires objc
+}

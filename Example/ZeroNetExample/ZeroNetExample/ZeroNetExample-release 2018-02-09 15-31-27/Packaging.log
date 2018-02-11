@@ -1,0 +1,2283 @@
+2018-02-09 20:28:12 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd92d21bad0; archive(resolved)='<IDEArchive: 0x7fd92ba8cba0>', distributionTask(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd92d21bad0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd943b4d2d0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92bd8f130; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92cf6b9b0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92d417e60; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92bf413b0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92cb3ebf0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92d5503b0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92c8d80b0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92cec93b0; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd943a24af0>', team='<IDEProvisioningBasicTeam 0x7fd92cd44ef0: teamID: MM2B8W94AH, teamName: Rick Li>'>
+	<IDEDistributionContext: 0x7fd92cab8360; archive = '<IDEArchive: 0x7fd92ba8cba0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd92d21bad0>
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionCopyItemStep
+2018-02-09 20:28:12 +0000  Running /usr/bin/ditto '-V' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app'
+2018-02-09 20:28:12 +0000  >>> Copying /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app 
+2018-02-09 20:28:12 +0000  copying file ./de.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  150 bytes for ./de.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  21318 bytes for ./_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./zh-Hans.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  213 bytes for ./zh-Hans.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./ja.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  118 bytes for ./ja.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./en.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  78 bytes for ./en.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./es.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  116 bytes for ./es.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./da.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  212 bytes for ./da.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./es-ES.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  116 bytes for ./es-ES.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./Base.lproj/Main.storyboardc/Main.nib ... 
+2018-02-09 20:28:12 +0000  1703 bytes for ./Base.lproj/Main.storyboardc/Main.nib
+2018-02-09 20:28:12 +0000  copying file ./Base.lproj/Main.storyboardc/logCtrl.nib ... 
+2018-02-09 20:28:12 +0000  1238 bytes for ./Base.lproj/Main.storyboardc/logCtrl.nib
+copying file ./Base.lproj/Main.storyboardc/ZfA-Dd-mLx-view-MK6-Pk-0I6.nib ... 
+2018-02-09 20:28:12 +0000  4561 bytes for ./Base.lproj/Main.storyboardc/ZfA-Dd-mLx-view-MK6-Pk-0I6.nib
+2018-02-09 20:28:12 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-09 20:28:12 +0000  197 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/tNQ-po-4Fv-view-a1d-Eq-Qjo.nib ... 
+2018-02-09 20:28:12 +0000  2418 bytes for ./Base.lproj/Main.storyboardc/tNQ-po-4Fv-view-a1d-Eq-Qjo.nib
+2018-02-09 20:28:12 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-09 20:28:12 +0000  115 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-02-09 20:28:12 +0000  copying file ./zh-Hant.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  114 bytes for ./zh-Hant.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-02-09 20:28:12 +0000  384 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-02-09 20:28:12 +0000  42040 bytes for ./Assets.car
+2018-02-09 20:28:12 +0000  copying file ./vi.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  138 bytes for ./vi.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./fr.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:12 +0000  122 bytes for ./fr.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./ZeroNetExample ... 
+2018-02-09 20:28:12 +0000  563296 bytes for ./ZeroNetExample
+2018-02-09 20:28:12 +0000  copying file ./pt.lproj/SwiftWebVC.strings ... 
+116 bytes for ./pt.lproj/SwiftWebVC.strings
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2018-02-09 20:28:12 +0000  1131664 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+2018-02-09 20:28:12 +0000  745 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-02-09 20:28:12 +0000  258256 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-02-09 20:28:12 +0000  505776 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-02-09 20:28:12 +0000  68838944 bytes for ./Frameworks/libswiftCore.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-02-09 20:28:12 +0000  1268832 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-02-09 20:28:12 +0000  789184 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+399376 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-02-09 20:28:12 +0000  2440736 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2018-02-09 20:28:12 +0000  446384 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-02-09 20:28:12 +0000  257696 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/CryptoSwift.framework/CryptoSwift ... 
+2018-02-09 20:28:12 +0000  2662208 bytes for ./Frameworks/CryptoSwift.framework/CryptoSwift
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/CryptoSwift.framework/Info.plist ... 
+746 bytes for ./Frameworks/CryptoSwift.framework/Info.plist
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/BinUtils.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/BinUtils.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/BinUtils.framework/BinUtils ... 
+2018-02-09 20:28:12 +0000  641440 bytes for ./Frameworks/BinUtils.framework/BinUtils
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/BinUtils.framework/Info.plist ... 
+743 bytes for ./Frameworks/BinUtils.framework/Info.plist
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-02-09 20:28:12 +0000  599264 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/MessagePack.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/MessagePack.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/MessagePack.framework/MessagePack ... 
+2018-02-09 20:28:12 +0000  718704 bytes for ./Frameworks/MessagePack.framework/MessagePack
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/MessagePack.framework/Info.plist ... 
+2018-02-09 20:28:12 +0000  746 bytes for ./Frameworks/MessagePack.framework/Info.plist
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-02-09 20:28:12 +0000  310976 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/ZeroNetSwiftFramework.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/ZeroNetSwiftFramework.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/ZeroNetSwiftFramework.framework/ZeroNetSwiftFramework ... 
+2018-02-09 20:28:12 +0000  979648 bytes for ./Frameworks/ZeroNetSwiftFramework.framework/ZeroNetSwiftFramework
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/ZeroNetSwiftFramework.framework/Info.plist ... 
+773 bytes for ./Frameworks/ZeroNetSwiftFramework.framework/Info.plist
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2018-02-09 20:28:12 +0000  3993008 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2018-02-09 20:28:12 +0000  744 bytes for ./Frameworks/Alamofire.framework/Info.plist
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/Socket.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:12 +0000  2202 bytes for ./Frameworks/Socket.framework/_CodeSignature/CodeResources
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/Socket.framework/Info.plist ... 
+2018-02-09 20:28:12 +0000  741 bytes for ./Frameworks/Socket.framework/Info.plist
+copying file ./Frameworks/Socket.framework/Socket ... 
+2018-02-09 20:28:12 +0000  1017104 bytes for ./Frameworks/Socket.framework/Socket
+2018-02-09 20:28:12 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-02-09 20:28:12 +0000  27762864 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-02-09 20:28:12 +0000  2018-02-09 20:28:12 +0000  /usr/bin/ditto exited with 0
+
+2018-02-09 20:28:12 +0000  copying file ./embedded.mobileprovision ... 
+8181 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1179 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d2861d0 'Alamofire' '<DVTFilePath:0x7fd92d5bd660:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Alamofire.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d509e50 'BinUtils' '<DVTFilePath:0x7fd92d5a2ed0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/BinUtils.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd93f2dc530 'CryptoSwift' '<DVTFilePath:0x7fd92d59dd60:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/CryptoSwift.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92c050b70 'MessagePack' '<DVTFilePath:0x7fd92d5aff30:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/MessagePack.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92c2f2ea0 'Socket' '<DVTFilePath:0x7fd92d5c3140:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Socket.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92ce554d0 'SwiftyJSON' '<DVTFilePath:0x7fd92d591830:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92cd27c80 'com.rick.ZeroNetSwiftFramework' '<DVTFilePath:0x7fd92d5b6d40:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd9441021c0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92d5951f0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCore.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92cd0daa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92d59c970:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d74b860 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd92d5965a0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d2314a0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd92d5928e0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92ca52ec0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92d5a9950:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd9428f8f30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd92d59a1d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd943adb610 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd92d5c89d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92c29f3d0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd92d595180:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92c21bfe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd92d593d50:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d04a7d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd92d5b6250:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92d00de70 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd92d597cd0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-02-09 20:28:12 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd92ce1c5c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92d59b910:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftos.dylib'>'>
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-02-09 20:28:12 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-02-09 20:28:12 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-02-09 20:28:12 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/4B6294ED-3097-35C1-BBE5-E90C211E3FFB.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/F510B5C5-69EB-3019-BF5E-A5FB8DE312DF.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/08F7F0C0-406D-398C-8475-07493F7E4DF4.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/A09B9BD0-10F8-3129-8B19-B27AA75E3B67.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/0F3BC9E6-1BF5-36AB-8315-0D2F82DD0515.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/79C58FCA-A094-3379-820A-130B23397F6D.bcsymbolmap as expected.
+2018-02-09 20:28:12 +0000  The archive did not contain /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/922283CA-CD5B-3DF3-BE36-DDD296D90199.bcsymbolmap as expected.
+2018-02-09 20:28:13 +0000  Running /usr/bin/ditto '-V' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/BCSymbolMaps/99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap'
+2018-02-09 20:28:13 +0000  >>> Copying /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/BCSymbolMaps/99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap 
+2018-02-09 20:28:13 +0000  copying file ./99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap ... 
+2018-02-09 20:28:13 +0000  67885 bytes for ./99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  /usr/bin/ditto exited with 0
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  Processing step: IDEDistributionSymbolsStep
+2018-02-09 20:28:13 +0000  Excluding symbols for Alamofire.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for BinUtils.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for CryptoSwift.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for MessagePack.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for Socket.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for SwiftyJSON.framework
+2018-02-09 20:28:13 +0000  Excluding symbols for ZeroNetSwiftFramework.framework
+2018-02-09 20:28:13 +0000  Processing symbols for libswiftCore.dylib
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  1 file to consider
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  sent 92 bytes  received 20 bytes  224.00 bytes/sec
+total size is 65.65M  speedup is 614633.43
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  7 files to consider
+2018-02-09 20:28:13 +0000  ./
+2018-02-09 20:28:13 +0000  ZeroNetExample.app.dSYM/
+2018-02-09 20:28:13 +0000  ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:13 +0000  
+sent 250 bytes  received 50 bytes  600.00 bytes/sec
+2018-02-09 20:28:13 +0000  total size is 327.38K  speedup is 1117.46
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCore.dylib'
+2018-02-09 20:28:13 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCore.dylib [armv7, 0.474164 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCore.dylib [armv7s, 0.474164 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCore.dylib [arm64, 0.474164 seconds]:
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  1 file to consider
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 251.66K  speedup is 2112.26
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  7 files to consider
+2018-02-09 20:28:13 +0000  ./
+2018-02-09 20:28:13 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:13 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 0
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreFoundation.dylib'
+2018-02-09 20:28:13 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreFoundation.dylib [armv7, 0.001637 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreFoundation.dylib [armv7s, 0.001637 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreFoundation.dylib [arm64, 0.001637 seconds]:
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  1 file to consider
+2018-02-09 20:28:13 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 1.21M  speedup is 10573.60
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 0
+
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:13 +0000  building file list ... 
+2018-02-09 20:28:13 +0000   0 files...2018-02-09 20:28:13 +0000  7 files to consider
+2018-02-09 20:28:13 +0000  ./
+2018-02-09 20:28:13 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:13 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+2018-02-09 20:28:13 +0000  total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  
+
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  2018-02-09 20:28:13 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:13 +0000  
+
+
+2018-02-09 20:28:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreGraphics.dylib'
+2018-02-09 20:28:13 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreGraphics.dylib [armv7, 0.009125 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreGraphics.dylib [armv7s, 0.009125 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreGraphics.dylib [arm64, 0.009125 seconds]:
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:13 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 252.20K  speedup is 2207.32
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreImage.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreImage.dylib [armv7, 0.001819 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreImage.dylib [armv7s, 0.001819 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftCoreImage.dylib [arm64, 0.001819 seconds]:
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftDarwin.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 585.22K  speedup is 5256.70
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+2018-02-09 20:28:14 +0000  total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDarwin.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDarwin.dylib [armv7, 0.004652 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDarwin.dylib [armv7s, 0.004652 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDarwin.dylib [arm64, 0.004652 seconds]:
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftDispatch.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 2.33M  speedup is 21040.83
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDispatch.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDispatch.dylib [armv7, 0.023537 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDispatch.dylib [armv7s, 0.023537 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftDispatch.dylib [arm64, 0.023537 seconds]:
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftFoundation.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 26.48M  speedup is 235278.51
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+2018-02-09 20:28:14 +0000  total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftFoundation.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftFoundation.dylib [armv7, 0.147229 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftFoundation.dylib [armv7s, 0.147229 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftFoundation.dylib [arm64, 0.147229 seconds]:
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftMetal.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+sent 93 bytes  received 20 bytes  226.00 bytes/sec
+2018-02-09 20:28:14 +0000  total size is 390.02K  speedup is 3534.30
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+2018-02-09 20:28:14 +0000  total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftMetal.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftMetal.dylib [armv7, 0.002496 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftMetal.dylib [armv7s, 0.002496 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftMetal.dylib [arm64, 0.002496 seconds]:
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 493.92K  speedup is 4286.24
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftObjectiveC.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftObjectiveC.dylib [armv7, 0.004943 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftObjectiveC.dylib [armv7s, 0.004943 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftObjectiveC.dylib [arm64, 0.004943 seconds]:
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 303.69K  speedup is 2635.39
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+2018-02-09 20:28:14 +0000  total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftQuartzCore.dylib'
+2018-02-09 20:28:14 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftQuartzCore.dylib [armv7, 0.002075 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftQuartzCore.dylib [armv7s, 0.002075 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftQuartzCore.dylib [arm64, 0.002075 seconds]:
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  Processing symbols for libswiftUIKit.dylib
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  1 file to consider
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  sent 93 bytes  received 20 bytes  226.00 bytes/sec
+total size is 770.69K  speedup is 6983.93
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:14 +0000  
+
+
+2018-02-09 20:28:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:14 +0000  building file list ... 
+2018-02-09 20:28:14 +0000   0 files...2018-02-09 20:28:14 +0000  7 files to consider
+2018-02-09 20:28:14 +0000  ./
+2018-02-09 20:28:14 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:14 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  2018-02-09 20:28:14 +0000  /usr/bin/rsync exited with 0
+
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  
+2018-02-09 20:28:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftUIKit.dylib'
+2018-02-09 20:28:15 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftUIKit.dylib [armv7, 0.005694 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftUIKit.dylib [armv7s, 0.005694 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftUIKit.dylib [arm64, 0.005694 seconds]:
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  Processing symbols for libswiftos.dylib
+2018-02-09 20:28:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:15 +0000  building file list ... 
+2018-02-09 20:28:15 +0000   0 files...2018-02-09 20:28:15 +0000  1 file to consider
+2018-02-09 20:28:15 +0000  
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 435.92K  speedup is 4058.04
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '--link-dest' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/dSYMs/' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT'
+2018-02-09 20:28:15 +0000  building file list ... 
+2018-02-09 20:28:15 +0000   0 files...2018-02-09 20:28:15 +0000  7 files to consider
+2018-02-09 20:28:15 +0000  ./
+2018-02-09 20:28:15 +0000  ZeroNetExample.app.dSYM/
+ZeroNetExample.app.dSYM/Contents/
+ZeroNetExample.app.dSYM/Contents/Resources/
+ZeroNetExample.app.dSYM/Contents/Resources/DWARF/
+2018-02-09 20:28:15 +0000  
+sent 262 bytes  received 62 bytes  648.00 bytes/sec
+total size is 327.38K  speedup is 1034.68
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:15 +0000  
+
+
+2018-02-09 20:28:15 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftos.dylib'
+2018-02-09 20:28:15 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftos.dylib [armv7, 0.003242 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftos.dylib [armv7s, 0.003242 seconds]:
+/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/libswiftos.dylib [arm64, 0.003242 seconds]:
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  Excluding symbols for ZeroNetExample.app
+2018-02-09 20:28:15 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-02-09 20:28:15 +0000  Running /usr/bin/ditto '-V' '/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/SwiftSupport' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/SwiftSupport'
+2018-02-09 20:28:15 +0000  >>> Copying /Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/SwiftSupport 
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-02-09 20:28:15 +0000  300318 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-02-09 20:28:15 +0000  681314 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2018-02-09 20:28:15 +0000  100085655 bytes for ./iphoneos/libswiftCore.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-02-09 20:28:15 +0000  1736845 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-02-09 20:28:15 +0000  1118295 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-02-09 20:28:15 +0000  504212 bytes for ./iphoneos/libswiftMetal.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-02-09 20:28:15 +0000  3399641 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2018-02-09 20:28:15 +0000  590007 bytes for ./iphoneos/libswiftos.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-02-09 20:28:15 +0000  287519 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-02-09 20:28:15 +0000  790336 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-02-09 20:28:15 +0000  370129 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2018-02-09 20:28:15 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-02-09 20:28:15 +0000  40621914 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  /usr/bin/ditto exited with 0
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  Processing step: IDEDistributionAppThinningStep
+2018-02-09 20:28:15 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-02-09 20:28:15 +0000  Processing step: IDEDistributionODRStep
+2018-02-09 20:28:15 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d2861d0 'Alamofire' '<DVTFilePath:0x7fd92d5bd660:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Alamofire.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d509e50 'BinUtils' '<DVTFilePath:0x7fd92d5a2ed0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/BinUtils.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd93f2dc530 'CryptoSwift' '<DVTFilePath:0x7fd92d59dd60:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/CryptoSwift.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92c050b70 'MessagePack' '<DVTFilePath:0x7fd92d5aff30:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/MessagePack.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92c2f2ea0 'Socket' '<DVTFilePath:0x7fd92d5c3140:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Socket.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92ce554d0 'SwiftyJSON' '<DVTFilePath:0x7fd92d591830:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92cd27c80 'com.rick.ZeroNetSwiftFramework' '<DVTFilePath:0x7fd92d5b6d40:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd9441021c0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92d5951f0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCore.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92cd0daa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92d59c970:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d74b860 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd92d5965a0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d2314a0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd92d5928e0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92ca52ec0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92d5a9950:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd9428f8f30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd92d59a1d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd943adb610 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd92d5c89d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92c29f3d0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd92d595180:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92c21bfe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd92d593d50:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d04a7d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd92d5b6250:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92d00de70 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd92d597cd0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-02-09 20:28:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd92ce1c5c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92d59b910:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftos.dylib'>'>
+2018-02-09 20:28:15 +0000  Running /usr/bin/xattr '-crs' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app'
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  /usr/bin/xattr exited with 0
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  Processing step: IDEDistributionCodesignStep
+2018-02-09 20:28:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d2861d0 'Alamofire' '<DVTFilePath:0x7fd92d5bd660:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Alamofire.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c5f16f0>: {
+}
+2018-02-09 20:28:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d2861d0 'Alamofire' '<DVTFilePath:0x7fd92d5bd660:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Alamofire.framework'>'>: {
+}
+2018-02-09 20:28:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d2861d0 'Alamofire' '<DVTFilePath:0x7fd92d5bd660:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Alamofire.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements6dyg1J
+2018-02-09 20:28:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements6dyg1J' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/Alamofire.framework'
+2018-02-09 20:28:15 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/Alamofire.framework: signed bundle with Mach-O thin (arm64) [Alamofire]
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  
+2018-02-09 20:28:15 +0000  2018-02-09 20:28:15 +0000  /usr/bin/codesign exited with 0
+2018-02-09 20:28:15 +0000  
+
+2018-02-09 20:28:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d509e50 'BinUtils' '<DVTFilePath:0x7fd92d5a2ed0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/BinUtils.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd93f7d1df0>: {
+}
+2018-02-09 20:28:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d509e50 'BinUtils' '<DVTFilePath:0x7fd92d5a2ed0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/BinUtils.framework'>'>: {
+}
+2018-02-09 20:28:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d509e50 'BinUtils' '<DVTFilePath:0x7fd92d5a2ed0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/BinUtils.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsQDM2JD
+2018-02-09 20:28:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsQDM2JD' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/BinUtils.framework'
+2018-02-09 20:28:16 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/BinUtils.framework: signed bundle with Mach-O thin (arm64) [BinUtils]
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  2018-02-09 20:28:16 +0000  
+
+2018-02-09 20:28:16 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:16 +0000  
+
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd93f2dc530 'CryptoSwift' '<DVTFilePath:0x7fd92d59dd60:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/CryptoSwift.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd93ece53c0>: {
+}
+2018-02-09 20:28:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd93f2dc530 'CryptoSwift' '<DVTFilePath:0x7fd92d59dd60:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/CryptoSwift.framework'>'>: {
+}
+2018-02-09 20:28:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd93f2dc530 'CryptoSwift' '<DVTFilePath:0x7fd92d59dd60:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/CryptoSwift.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements7SS6ze
+2018-02-09 20:28:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements7SS6ze' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework'
+2018-02-09 20:28:16 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework: signed bundle with Mach-O thin (arm64) [CryptoSwift]
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  2018-02-09 20:28:16 +0000  
+
+2018-02-09 20:28:16 +0000  /usr/bin/codesign exited with 0
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92c050b70 'MessagePack' '<DVTFilePath:0x7fd92d5aff30:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/MessagePack.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c5e4d70>: {
+}
+2018-02-09 20:28:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd92c050b70 'MessagePack' '<DVTFilePath:0x7fd92d5aff30:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/MessagePack.framework'>'>: {
+}
+2018-02-09 20:28:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92c050b70 'MessagePack' '<DVTFilePath:0x7fd92d5aff30:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/MessagePack.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementse1FUKX
+2018-02-09 20:28:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementse1FUKX' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/MessagePack.framework'
+2018-02-09 20:28:16 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/MessagePack.framework: signed bundle with Mach-O thin (arm64) [MessagePack]
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  2018-02-09 20:28:16 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92c2f2ea0 'Socket' '<DVTFilePath:0x7fd92d5c3140:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Socket.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd93f2ec550>: {
+}
+2018-02-09 20:28:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd92c2f2ea0 'Socket' '<DVTFilePath:0x7fd92d5c3140:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Socket.framework'>'>: {
+}
+2018-02-09 20:28:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92c2f2ea0 'Socket' '<DVTFilePath:0x7fd92d5c3140:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/Socket.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsBnvCPq
+2018-02-09 20:28:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsBnvCPq' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/Socket.framework'
+2018-02-09 20:28:16 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/Socket.framework: signed bundle with Mach-O thin (arm64) [Socket]
+2018-02-09 20:28:16 +0000  2018-02-09 20:28:16 +0000  
+
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  
+2018-02-09 20:28:16 +0000  2018-02-09 20:28:16 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:16 +0000  
+
+
+2018-02-09 20:28:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92ce554d0 'SwiftyJSON' '<DVTFilePath:0x7fd92d591830:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c5719d0>: {
+}
+2018-02-09 20:28:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd92ce554d0 'SwiftyJSON' '<DVTFilePath:0x7fd92d591830:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'>'>: {
+}
+2018-02-09 20:28:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92ce554d0 'SwiftyJSON' '<DVTFilePath:0x7fd92d591830:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsXiuxl9
+2018-02-09 20:28:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsXiuxl9' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework'
+2018-02-09 20:28:17 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O thin (arm64) [SwiftyJSON]
+2018-02-09 20:28:17 +0000  2018-02-09 20:28:17 +0000  
+
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  2018-02-09 20:28:17 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92cd27c80 'com.rick.ZeroNetSwiftFramework' '<DVTFilePath:0x7fd92d5b6d40:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92cedcce0>: {
+}
+2018-02-09 20:28:17 +0000  Entitlements for <IDEDistributionItem: 0x7fd92cd27c80 'com.rick.ZeroNetSwiftFramework' '<DVTFilePath:0x7fd92d5b6d40:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'>'>: {
+}
+2018-02-09 20:28:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92cd27c80 'com.rick.ZeroNetSwiftFramework' '<DVTFilePath:0x7fd92d5b6d40:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsm6C9DG
+2018-02-09 20:28:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsm6C9DG' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework'
+2018-02-09 20:28:17 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework: signed bundle with Mach-O thin (arm64) [com.rick.ZeroNetSwiftFramework]
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  
+2018-02-09 20:28:17 +0000  /usr/bin/codesign exited with 0
+2018-02-09 20:28:17 +0000  2018-02-09 20:28:17 +0000  
+
+2018-02-09 20:28:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd9441021c0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92d5951f0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92bac3210>: {
+}
+2018-02-09 20:28:17 +0000  Entitlements for <IDEDistributionItem: 0x7fd9441021c0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92d5951f0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-02-09 20:28:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd9441021c0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92d5951f0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsILkhpi
+2018-02-09 20:28:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsILkhpi' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib'
+2018-02-09 20:28:17 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-02-09 20:28:18 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  /usr/bin/codesign exited with 0
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92cd0daa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92d59c970:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c21c490>: {
+}
+2018-02-09 20:28:18 +0000  Entitlements for <IDEDistributionItem: 0x7fd92cd0daa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92d59c970:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-02-09 20:28:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92cd0daa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92d59c970:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsjcLUEi
+2018-02-09 20:28:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsjcLUEi' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-02-09 20:28:18 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-02-09 20:28:18 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d74b860 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd92d5965a0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c1d64f0>: {
+}
+2018-02-09 20:28:18 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d74b860 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd92d5965a0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-02-09 20:28:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d74b860 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd92d5965a0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsLNByEQ
+2018-02-09 20:28:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsLNByEQ' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-02-09 20:28:18 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-02-09 20:28:18 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  2018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:18 +0000  
+
+2018-02-09 20:28:18 +0000  
+2018-02-09 20:28:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d2314a0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd92d5928e0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd93f2c4270>: {
+}
+2018-02-09 20:28:18 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d2314a0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd92d5928e0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-02-09 20:28:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d2314a0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd92d5928e0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsEV4XsP
+2018-02-09 20:28:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsEV4XsP' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib'
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92ca52ec0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92d5a9950:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9416db980>: {
+}
+2018-02-09 20:28:19 +0000  Entitlements for <IDEDistributionItem: 0x7fd92ca52ec0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92d5a9950:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-02-09 20:28:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92ca52ec0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92d5a9950:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsHyZXWK
+2018-02-09 20:28:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsHyZXWK' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib'
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd9428f8f30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd92d59a1d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92c135ab0>: {
+}
+2018-02-09 20:28:19 +0000  Entitlements for <IDEDistributionItem: 0x7fd9428f8f30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd92d59a1d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-02-09 20:28:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd9428f8f30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd92d59a1d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements6DCJmt
+2018-02-09 20:28:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements6DCJmt' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib'
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  2018-02-09 20:28:19 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:19 +0000  
+2018-02-09 20:28:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd943adb610 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd92d5c89d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92cefbb10>: {
+}
+2018-02-09 20:28:19 +0000  Entitlements for <IDEDistributionItem: 0x7fd943adb610 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd92d5c89d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-02-09 20:28:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd943adb610 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd92d5c89d0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements5pe6yf
+2018-02-09 20:28:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlements5pe6yf' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib'
+2018-02-09 20:28:19 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-02-09 20:28:20 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-02-09 20:28:20 +0000  2018-02-09 20:28:20 +0000  
+
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:20 +0000  2018-02-09 20:28:20 +0000  
+
+
+2018-02-09 20:28:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92c29f3d0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd92d595180:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92ce38070>: {
+}
+2018-02-09 20:28:20 +0000  Entitlements for <IDEDistributionItem: 0x7fd92c29f3d0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd92d595180:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-02-09 20:28:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92c29f3d0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd92d595180:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsDQgI4a
+2018-02-09 20:28:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsDQgI4a' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib'
+2018-02-09 20:28:20 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-02-09 20:28:20 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-02-09 20:28:20 +0000  2018-02-09 20:28:20 +0000  
+
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  2018-02-09 20:28:20 +0000  
+
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  2018-02-09 20:28:20 +0000  
+
+2018-02-09 20:28:20 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:20 +0000  
+
+2018-02-09 20:28:20 +0000  
+2018-02-09 20:28:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92c21bfe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd92d593d50:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92cea7410>: {
+}
+2018-02-09 20:28:20 +0000  Entitlements for <IDEDistributionItem: 0x7fd92c21bfe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd92d593d50:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-02-09 20:28:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92c21bfe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd92d593d50:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsg5Tl0r
+2018-02-09 20:28:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsg5Tl0r' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib'
+2018-02-09 20:28:20 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d04a7d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd92d5b6250:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd944d8b5d0>: {
+}
+2018-02-09 20:28:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d04a7d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd92d5b6250:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-02-09 20:28:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d04a7d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd92d5b6250:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsz6Rctx
+2018-02-09 20:28:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsz6Rctx' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib'
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92d00de70 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd92d597cd0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd942945f70>: {
+}
+2018-02-09 20:28:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd92d00de70 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd92d597cd0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-02-09 20:28:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92d00de70 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd92d597cd0:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementskzBYe2
+2018-02-09 20:28:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementskzBYe2' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib'
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:21 +0000  
+
+
+2018-02-09 20:28:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92ce1c5c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92d59b910:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd93ec99c60>: {
+}
+2018-02-09 20:28:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd92ce1c5c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92d59b910:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-02-09 20:28:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92ce1c5c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92d59b910:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsu08YUy
+2018-02-09 20:28:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsu08YUy' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib'
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-02-09 20:28:21 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-02-09 20:28:21 +0000  2018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  /usr/bin/codesign exited with 02018-02-09 20:28:21 +0000  
+
+2018-02-09 20:28:21 +0000  
+2018-02-09 20:28:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd92cd73870 'com.rick.ZeroNetExample' '<DVTFilePath:0x7fd9441f3380:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92ce74720>: {
+}
+2018-02-09 20:28:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd92cd73870 'com.rick.ZeroNetExample' '<DVTFilePath:0x7fd9441f3380:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app'>'>: {
+    "application-identifier" = "MM2B8W94AH.com.rick.ZeroNetExample";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = MM2B8W94AH;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "MM2B8W94AH.com.rick.ZeroNetExample"
+    );
+}
+2018-02-09 20:28:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd92cd73870 'com.rick.ZeroNetExample' '<DVTFilePath:0x7fd9441f3380:'/Users/kl68884/Library/Developer/Xcode/Archives/2018-02-09/ZeroNetExample-release 2-9-18, 3.05 PM.xcarchive/Products/Applications/ZeroNetExample.app'>'> to: /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsoATcqO
+2018-02-09 20:28:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD1F47171DFA991B20FEAEA584F941F057875F11' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/entitlementsoATcqO' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app'
+2018-02-09 20:28:22 +0000  /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root/Payload/ZeroNetExample.app: signed app bundle with Mach-O thin (arm64) [com.rick.ZeroNetExample]
+2018-02-09 20:28:22 +0000  2018-02-09 20:28:22 +0000  
+
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  2018-02-09 20:28:22 +0000  /usr/bin/codesign exited with 0
+
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  2018-02-09 20:28:22 +0000  Processing step: IDEDistributionStreamingZipItemStep
+
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-09 20:28:22 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-02-09 20:28:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Symbols' '--link-dest' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root'
+2018-02-09 20:28:22 +0000  building file list ... 
+2018-02-09 20:28:22 +0000   0 files...2018-02-09 20:28:22 +0000  37 files to consider
+2018-02-09 20:28:22 +0000  Symbols/
+2018-02-09 20:28:22 +0000  
+sent 1.99K bytes  received 26 bytes  4.04K bytes/sec
+2018-02-09 20:28:22 +0000  total size is 18.65M  speedup is 9460.51
+2018-02-09 20:28:22 +0000  2018-02-09 20:28:22 +0000  
+
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  2018-02-09 20:28:22 +0000  
+
+2018-02-09 20:28:22 +0000  /usr/bin/rsync exited with 02018-02-09 20:28:22 +0000  
+2018-02-09 20:28:22 +0000  
+
+2018-02-09 20:28:22 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root' '/var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Packages/ZeroNetExample-release.ipa'
+2018-02-09 20:28:22 +0000  >>> Copying /var/folders/f3/ggn2zx014b5gj_90px__gy200000gn/T/XcodeDistPipeline.goT/Root 
+2018-02-09 20:28:22 +0000  copying file ./BCSymbolMaps/99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap ... 
+2018-02-09 20:28:22 +0000  67885 bytes for ./BCSymbolMaps/99ECA828-FE73-3096-975E-3DD224759619.bcsymbolmap
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/de.lproj/SwiftWebVC.strings ... 
+2018-02-09 20:28:22 +0000  150 bytes for ./Payload/ZeroNetExample.app/de.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:22 +0000  21318 bytes for ./Payload/ZeroNetExample.app/_CodeSignature/CodeResources
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/zh-Hans.lproj/SwiftWebVC.strings ... 
+213 bytes for ./Payload/ZeroNetExample.app/zh-Hans.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/ja.lproj/SwiftWebVC.strings ... 
+118 bytes for ./Payload/ZeroNetExample.app/ja.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/en.lproj/SwiftWebVC.strings ... 
+78 bytes for ./Payload/ZeroNetExample.app/en.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/es.lproj/SwiftWebVC.strings ... 
+116 bytes for ./Payload/ZeroNetExample.app/es.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/da.lproj/SwiftWebVC.strings ... 
+212 bytes for ./Payload/ZeroNetExample.app/da.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/es-ES.lproj/SwiftWebVC.strings ... 
+116 bytes for ./Payload/ZeroNetExample.app/es-ES.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/Main.nib ... 
+2018-02-09 20:28:22 +0000  1703 bytes for ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/Main.nib
+copying file ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/logCtrl.nib ... 
+2018-02-09 20:28:22 +0000  1238 bytes for ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/logCtrl.nib
+copying file ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/ZfA-Dd-mLx-view-MK6-Pk-0I6.nib ... 
+2018-02-09 20:28:22 +0000  4561 bytes for ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/ZfA-Dd-mLx-view-MK6-Pk-0I6.nib
+copying file ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-09 20:28:22 +0000  197 bytes for ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/tNQ-po-4Fv-view-a1d-Eq-Qjo.nib ... 
+2018-02-09 20:28:22 +0000  2418 bytes for ./Payload/ZeroNetExample.app/Base.lproj/Main.storyboardc/tNQ-po-4Fv-view-a1d-Eq-Qjo.nib
+copying file ./Payload/ZeroNetExample.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-09 20:28:22 +0000  115 bytes for ./Payload/ZeroNetExample.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/zh-Hant.lproj/SwiftWebVC.strings ... 
+114 bytes for ./Payload/ZeroNetExample.app/zh-Hant.lproj/SwiftWebVC.strings
+copying file ./Payload/ZeroNetExample.app/archived-expanded-entitlements.xcent ... 
+2018-02-09 20:28:22 +0000  384 bytes for ./Payload/ZeroNetExample.app/archived-expanded-entitlements.xcent
+copying file ./Payload/ZeroNetExample.app/Assets.car ... 
+2018-02-09 20:28:22 +0000  42040 bytes for ./Payload/ZeroNetExample.app/Assets.car
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/vi.lproj/SwiftWebVC.strings ... 
+138 bytes for ./Payload/ZeroNetExample.app/vi.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/fr.lproj/SwiftWebVC.strings ... 
+122 bytes for ./Payload/ZeroNetExample.app/fr.lproj/SwiftWebVC.strings
+copying file ./Payload/ZeroNetExample.app/ZeroNetExample ... 
+2018-02-09 20:28:22 +0000  429920 bytes for ./Payload/ZeroNetExample.app/ZeroNetExample
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/pt.lproj/SwiftWebVC.strings ... 
+116 bytes for ./Payload/ZeroNetExample.app/pt.lproj/SwiftWebVC.strings
+2018-02-09 20:28:22 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:22 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2018-02-09 20:28:22 +0000  787904 bytes for ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2018-02-09 20:28:22 +0000  745 bytes for ./Payload/ZeroNetExample.app/Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-02-09 20:28:22 +0000  258624 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-02-09 20:28:22 +0000  506144 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib ... 
+2018-02-09 20:28:25 +0000  68839312 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-02-09 20:28:25 +0000  1269200 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib ... 
+2018-02-09 20:28:25 +0000  789536 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib ... 
+2018-02-09 20:28:25 +0000  399728 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftMetal.dylib
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib ... 
+2018-02-09 20:28:25 +0000  2441088 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib ... 
+2018-02-09 20:28:25 +0000  446752 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftos.dylib
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-02-09 20:28:25 +0000  258064 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftCoreFoundation.dylib
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:25 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/CryptoSwift ... 
+2018-02-09 20:28:25 +0000  1759312 bytes for ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/CryptoSwift
+copying file ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/Info.plist ... 
+2018-02-09 20:28:25 +0000  746 bytes for ./Payload/ZeroNetExample.app/Frameworks/CryptoSwift.framework/Info.plist
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:25 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/BinUtils ... 
+2018-02-09 20:28:25 +0000  442016 bytes for ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/BinUtils
+copying file ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/Info.plist ... 
+2018-02-09 20:28:25 +0000  743 bytes for ./Payload/ZeroNetExample.app/Frameworks/BinUtils.framework/Info.plist
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib ... 
+2018-02-09 20:28:25 +0000  599632 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftDarwin.dylib
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:25 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/MessagePack ... 
+2018-02-09 20:28:25 +0000  486336 bytes for ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/MessagePack
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/Info.plist ... 
+746 bytes for ./Payload/ZeroNetExample.app/Frameworks/MessagePack.framework/Info.plist
+copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-02-09 20:28:25 +0000  311328 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftQuartzCore.dylib
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:25 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/ZeroNetSwiftFramework ... 
+2018-02-09 20:28:25 +0000  665936 bytes for ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/ZeroNetSwiftFramework
+copying file ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/Info.plist ... 
+2018-02-09 20:28:25 +0000  773 bytes for ./Payload/ZeroNetExample.app/Frameworks/ZeroNetSwiftFramework.framework/Info.plist
+2018-02-09 20:28:25 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/Alamofire ... 
+2018-02-09 20:28:25 +0000  2494080 bytes for ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/Alamofire
+2018-02-09 20:28:26 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/Info.plist ... 
+744 bytes for ./Payload/ZeroNetExample.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/_CodeSignature/CodeResources ... 
+2018-02-09 20:28:26 +0000  2202 bytes for ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/_CodeSignature/CodeResources
+copying file ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/Info.plist ... 
+2018-02-09 20:28:26 +0000  741 bytes for ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/Info.plist
+copying file ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/Socket ... 
+2018-02-09 20:28:26 +0000  711392 bytes for ./Payload/ZeroNetExample.app/Frameworks/Socket.framework/Socket
+2018-02-09 20:28:26 +0000  copying file ./Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib ... 
+2018-02-09 20:28:27 +0000  27763232 bytes for ./Payload/ZeroNetExample.app/Frameworks/libswiftFoundation.dylib
+2018-02-09 20:28:27 +0000  copying file ./Payload/ZeroNetExample.app/embedded.mobileprovision ... 
+7405 bytes for ./Payload/ZeroNetExample.app/embedded.mobileprovision
+2018-02-09 20:28:27 +0000  copying file ./Payload/ZeroNetExample.app/Info.plist ... 
+1179 bytes for ./Payload/ZeroNetExample.app/Info.plist
+copying file ./Payload/ZeroNetExample.app/PkgInfo ... 
+2018-02-09 20:28:27 +0000  8 bytes for ./Payload/ZeroNetExample.app/PkgInfo
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-02-09 20:28:27 +0000  258160 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-02-09 20:28:27 +0000  505680 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-02-09 20:28:30 +0000  68838832 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-02-09 20:28:30 +0000  1268736 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-02-09 20:28:30 +0000  789072 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-02-09 20:28:30 +0000  399264 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-02-09 20:28:30 +0000  2440624 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-02-09 20:28:30 +0000  446288 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-02-09 20:28:30 +0000  257584 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-02-09 20:28:30 +0000  599168 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-02-09 20:28:30 +0000  310864 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-02-09 20:28:32 +0000  27746368 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-02-09 20:28:32 +0000  copying file ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols ... 
+2018-02-09 20:28:32 +0000  23952 bytes for ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols ... 
+2018-02-09 20:28:32 +0000  96544 bytes for ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols ... 
+2018-02-09 20:28:32 +0000  55664 bytes for ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols ... 
+2018-02-09 20:28:32 +0000  7384 bytes for ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols
+copying file ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols ... 
+2018-02-09 20:28:32 +0000  2736 bytes for ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols ... 
+2018-02-09 20:28:32 +0000  13232 bytes for ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols ... 
+2018-02-09 20:28:32 +0000  1595992 bytes for ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols ... 
+2456 bytes for ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols
+copying file ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols ... 
+2018-02-09 20:28:32 +0000  2824 bytes for ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols
+copying file ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols ... 
+2018-02-09 20:28:32 +0000  96392 bytes for ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols ... 
+2018-02-09 20:28:32 +0000  37952 bytes for ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols ... 
+2018-02-09 20:28:32 +0000  232040 bytes for ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols ... 
+2018-02-09 20:28:32 +0000  38552 bytes for ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols ... 
+2018-02-09 20:28:32 +0000  55696 bytes for ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols ... 
+2018-02-09 20:28:32 +0000  12128 bytes for ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols ... 
+2018-02-09 20:28:32 +0000  23952 bytes for ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols ... 
+2018-02-09 20:28:32 +0000  24384 bytes for ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols ... 
+2018-02-09 20:28:32 +0000  234272 bytes for ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols ... 
+2018-02-09 20:28:32 +0000  38552 bytes for ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols ... 
+2018-02-09 20:28:32 +0000  13056 bytes for ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols ... 
+2018-02-09 20:28:32 +0000  1592304 bytes for ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols ... 
+2018-02-09 20:28:32 +0000  2352 bytes for ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols
+copying file ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols ... 
+2018-02-09 20:28:32 +0000  12304 bytes for ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols ... 
+2018-02-09 20:28:32 +0000  234128 bytes for ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols ... 
+2018-02-09 20:28:32 +0000  4443976 bytes for ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols ... 
+2018-02-09 20:28:32 +0000  4425016 bytes for ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols ... 
+2018-02-09 20:28:32 +0000  55696 bytes for ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols ... 
+2018-02-09 20:28:32 +0000  4443392 bytes for ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols ... 
+2018-02-09 20:28:32 +0000  96608 bytes for ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols ... 
+2018-02-09 20:28:32 +0000  13056 bytes for ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols ... 
+2018-02-09 20:28:32 +0000  12304 bytes for ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols ... 
+2018-02-09 20:28:32 +0000  2736 bytes for ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols
+copying file ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols ... 
+2018-02-09 20:28:32 +0000  7384 bytes for ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols ... 
+2018-02-09 20:28:32 +0000  7656 bytes for ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols
+copying file ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols ... 
+2018-02-09 20:28:32 +0000  1595848 bytes for ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols
+2018-02-09 20:28:32 +0000  copying file ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols ... 
+2352 bytes for ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols
+2018-02-09 20:28:32 +0000  
+2018-02-09 20:28:32 +0000  
+2018-02-09 20:28:32 +0000  
+2018-02-09 20:28:32 +0000  /usr/bin/ditto exited with 0
+2018-02-09 20:28:32 +0000  
+2018-02-09 20:28:32 +0000  2018-02-09 20:28:32 +0000  Processing step: IDEDistributionCreateManifestStep
+
+2018-02-09 20:28:32 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

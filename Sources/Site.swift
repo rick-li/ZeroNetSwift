@@ -30,11 +30,13 @@ class Site : NSObject {
     init(context: ZeroNet, siteAddr: String){
         self.context = context
         self.siteAddr = siteAddr
-        self.sitePath = context.rootPath + "/" + siteAddress
-        do {
-            try fm.createDirectory(atPath: self.sitePath, withIntermediateDirectories: true)
-        } catch {
-            print("Failed to create site dir " + self.sitePath)
+        self.sitePath = context.rootPath + "/" + siteAddr
+        if !fm.fileExists(atPath: self.sitePath) {
+            do {
+                try fm.createDirectory(atPath: self.sitePath, withIntermediateDirectories: true)
+            } catch {
+                context.logger.log("Failed to create site dir " + self.sitePath, .others)
+            }
         }
         super.init()
         //TODO load existing files
@@ -44,20 +46,20 @@ class Site : NSObject {
         self.loadPeersFromTracker(trackerIdx: 0, onLoaded: { peerInfos in
             print("Peers loaded - ", peerInfos)
             if peerInfos.count == 0 {
-                print("Can't load any peers...") //Retry after few minuets?
+                self.context.logger.log("Can't load any peers... ", .failed)
                 return
             }
             self.peerInfos = peerInfos
             func createPeer(index: Int) {
                 do {
                     guard let peer = self.createPeerFromPeerInfo() else {
-                        print("None of the peer is accesible - abort.")
+                        self.context.logger.log("None of the peer is accesible - abort. ", .failed)
                         return
                     }
                     self.activePeer = peer
                     try self.activePeer?.requestFile(innerPath: "content.json")
                 } catch {
-                    print("Failed to download content.json, discard peer")
+                    self.context.logger.log("Failed to download content.json, discard peer. ", .others)
                     self.activePeer?.discard()
                     createPeer(index: index + 1)
                 }
@@ -69,10 +71,14 @@ class Site : NSObject {
     func onFileDownloaded(innerPath: String, data: Data){
         if innerPath == "content.json" {
             let bodyJson = JSON(data: data)
-            for (file, subJson):(String, JSON) in bodyJson["files"] {
+            for (file, _) : (String, JSON) in bodyJson["files"] {
                 print(file)
                 self.pendingFileList.append(file)
             }
+        }
+        
+        if self.pendingFileList.contains("index.html"){
+            self.pendingFileList.insert("index.html", at: 0)
         }
         
         if self.pendingFileList.count != 0 {
@@ -80,11 +86,11 @@ class Site : NSObject {
             do {
                 try self.activePeer?.requestFile(innerPath: fileToRequest)
             }catch{
-                print("Failed to download file - " + fileToRequest)
+                self.context.logger.log("Failed to download file - " + fileToRequest, .fileFailed)
             }
             self.pendingFileList = self.pendingFileList.filter({ item in item != innerPath })
         } else {
-          print("!!!=Congratulations=!!! Site \(self.siteAddr) is downloaded.")
+            self.context.logger.log("!!!=Congratulations=!!! Site \(self.siteAddr) is downloaded.", .siteCompleted)
         }
         
         let filePath = self.sitePath + "/" + innerPath
@@ -96,7 +102,7 @@ class Site : NSObject {
             do {
                 try fm.createDirectory(at: fileDir, withIntermediateDirectories: true)
             }catch {
-                print("Failed to create file - " + fileUrl.absoluteString)
+                self.context.logger.log("Failed to create file - " + fileUrl.absoluteString, .others)
             }
         }
         fm.createFile(atPath: filePath, contents: data)
@@ -108,9 +114,9 @@ class Site : NSObject {
         }
         let ip = self.peerInfos[peerInfoIdx].ip
         let port = self.peerInfos[peerInfoIdx].port
-        let peer = Peer(host: ip, port: Int(port), siteAddress: siteAddress, onFileDownloaded: self.onFileDownloaded)
+        let peer = Peer(context: context, host: ip, port: Int(port), siteAddress: self.siteAddr, onFileDownloaded: self.onFileDownloaded)
         do {
-            print("Creating peer from \(ip):\(port).")
+            self.context.logger.log("Creating peer from \(ip):\(port).", .others)
             try peer?.connect()
             return peer
         } catch {
@@ -121,14 +127,16 @@ class Site : NSObject {
     func loadPeersFromTracker(trackerIdx: Int = 0, onLoaded: @escaping ([PeerInfo]) -> ()) {
         let trackers = context.trackers
         
+        //Running out of trakcers
         if trackerIdx >= trackers.count {
             onLoaded([])
+            return
         }
         
         let tracker = trackers[trackerIdx]
-        let url = tracker + "?uploaded=0&downloaded=0&numwant=\(ZeroNet.Constants.PEER_NUM_WANT)&compact=1&event=started&peer_id=-ZN0060-obXBYFgyrTLX&port=\(ZeroNet.Constants.FILE_PORT)&left=0&info_hash=" + String(urlEncodingData: Data(bytes: Digest.sha1(siteAddress.bytes)))
         
-        print("Loading peer from - ", url)
+        let url = tracker + "?uploaded=0&downloaded=0&numwant=\(ZeroNet.Constants.PEER_NUM_WANT)&compact=1&event=started&peer_id=-ZN0060-1RxulSyEiMsj&port=\(ZeroNet.Constants.FILE_PORT)&left=0&info_hash=" + String(urlEncodingData: Data(bytes: Digest.sha1(self.siteAddr.bytes)))
+        self.context.logger.log("Loading peer from - " + url, .others)
         Alamofire.request(url).response(queue: mainQueue) { response in
             do {
                 let bencode = try BEncoder.decodeStringKeyedDictionary(response.data!)

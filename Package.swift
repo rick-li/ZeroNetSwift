@@ -13,6 +13,11 @@ import PackageDescription
 
 let package = Package(
     name: "ZeroNetSwift",
+    products: [
+        .library(
+            name: "ZeroNetSwift",
+            targets: ["ZeroNetSwift"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/a2/MessagePack.swift.git", from: "3.0.0"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.0.0"),
@@ -20,5 +25,13 @@ let package = Package(
         .package(url: "https://github.com/nst/BinUtils.git", from: "0.1.0"),
         .package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: "0.12.0"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "3.0.0"),
-        ]
+        ],
+    targets: [
+        .target(
+            name: "ZeroNetSwift",
+            dependencies: ["MessagePack", "Alamofire", "CryptoSwift", "BinUtils", "Socket", "SwiftyJSON"],
+            path: "Sources",
+            sources: [".", "Extensions"]
+        )
+    ]
 )

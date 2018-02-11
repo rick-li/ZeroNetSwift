@@ -32,6 +32,7 @@ class Request: NSObject {
 }
 
 class Connection: NSObject {
+    private var context: ZeroNet
     private var currReqId: UInt16 = 0
     //reqId => Stream
     private var waitingStreams:[UInt16: Stream] = [:]
@@ -49,7 +50,8 @@ class Connection: NSObject {
         return socket.isConnected
     }
     
-    init(host: String, port: UInt32, onFileDownloaded: @escaping (String, Data) -> ()) throws {
+    init(context: ZeroNet, host: String, port: UInt32, onFileDownloaded: @escaping (String, Data) -> ()) throws {
+        self.context = context
         try self.socket =  Socket.create()
         
         self.host = host
@@ -120,7 +122,7 @@ class Connection: NSObject {
                             savedBytes = Data(remainder)
                         }
                     } catch {
-                        print("Unpack error - waiting for next bytes and try again...")
+                        self.context.logger.log( "Unpack error - waiting for next bytes and try again...", .others)
                         savedBytes = buff
                         continue
                     }
@@ -145,6 +147,7 @@ class Connection: NSObject {
                     }
                 }
             } catch let error as NSError {
+                self.context.logger.log( "Error closing connection.", .others)
                 print("Error", error, " Closing the connection")
             }
         }
@@ -162,7 +165,7 @@ class Connection: NSObject {
         let to = UInt16(truncatingIfNeeded: (message["to"]?.unsignedIntegerValue)!)
         let req = self.waitingRequests[to]
         if message["error"] != nil {
-            print("Peer returns " + (message["error"]?.stringValue)!)
+            self.context.logger.log( "Peer returns - " + (message["error"]?.stringValue)!, .others)
             throw ZeroNetError.peerReturnsError
         }
         
@@ -174,11 +177,11 @@ class Connection: NSObject {
         
         if (req?.data.count)! >= size {
             let fileInnerPath = req?.message["params"]!["inner_path"]?.stringValue
-            print("Download completed - " + fileInnerPath!)
+            self.context.logger.log( "Download completed - " + fileInnerPath!, .fileCompleted)
             self.onFileDownloaded(fileInnerPath!, (req?.data)!)
         }else{
             let newLocation = message["location"]!.unsignedIntegerValue ?? 0
-            print("request more contents from new location: ", newLocation)
+            self.context.logger.log( "request more contents from new location: " + String(newLocation), .others)
             try self.send(site: (req?.message["params"]!["site"]!.stringValue)!, path: (req?.message["params"]!["inner_path"]!.stringValue)!, reqId: (req?.reqId)!, location: newLocation)
         }
     }

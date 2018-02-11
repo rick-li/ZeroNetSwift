@@ -1,0 +1,4 @@
+framework module ZeroNetSwiftFramework {
+    header "ZeroNetSwiftFramework-Swift.h"
+    requires objc
+}
