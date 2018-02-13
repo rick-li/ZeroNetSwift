@@ -147,7 +147,7 @@ class Connection: NSObject {
                     }
                 }
             } catch let error as NSError {
-                self.context.logger.log( "Error closing connection.", .others)
+                self.context.logger.log( "Error closing connection.", .failed)
                 print("Error", error, " Closing the connection")
             }
         }

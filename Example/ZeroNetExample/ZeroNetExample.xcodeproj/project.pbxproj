@@ -16,11 +16,9 @@
 		E51BF5F7202DF33B00F7BFB9 /* SwiftWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51BF5F0202DF33B00F7BFB9 /* SwiftWebVC.swift */; };
 		E51BF5F9202DF92100F7BFB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51BF5F8202DF92100F7BFB9 /* ViewController.swift */; };
 		E586D420200FB15500F0BDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586D41F200FB15500F0BDE8 /* AppDelegate.swift */; };
-		E586D422200FB15500F0BDE8 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586D421200FB15500F0BDE8 /* TabViewController.swift */; };
 		E586D425200FB15500F0BDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586D423200FB15500F0BDE8 /* Main.storyboard */; };
 		E586D427200FB15500F0BDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E586D426200FB15500F0BDE8 /* Assets.xcassets */; };
 		E586D42A200FB15500F0BDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586D428200FB15500F0BDE8 /* LaunchScreen.storyboard */; };
-		E586D432200FE4DA00F0BDE8 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586D431200FE4DA00F0BDE8 /* LogViewController.swift */; };
 		E586D434200FE4E900F0BDE8 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586D433200FE4E900F0BDE8 /* BrowserViewController.swift */; };
 		E586E6312015018600F0BDE8 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E586E62F2014FFFC00F0BDE8 /* Socket.framework */; };
 		E586E6322015018600F0BDE8 /* ZeroNetSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E586E62C2013027700F0BDE8 /* ZeroNetSwiftFramework.framework */; };
@@ -86,12 +84,10 @@
 		E51BF5F8202DF92100F7BFB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E586D41C200FB15500F0BDE8 /* ZeroNetExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroNetExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E586D41F200FB15500F0BDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E586D421200FB15500F0BDE8 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		E586D424200FB15500F0BDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E586D426200FB15500F0BDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E586D429200FB15500F0BDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E586D42B200FB15500F0BDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E586D431200FE4DA00F0BDE8 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		E586D433200FE4E900F0BDE8 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		E586E62C2013027700F0BDE8 /* ZeroNetSwiftFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZeroNetSwiftFramework.framework; path = Frameworks/ZeroNetSwiftFramework.framework; sourceTree = "<group>"; };
 		E586E62F2014FFFC00F0BDE8 /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = Frameworks/Socket.framework; sourceTree = "<group>"; };
@@ -179,12 +175,10 @@
 			children = (
 				E51BF5DC202DF33B00F7BFB9 /* SwiftWebVC */,
 				E586D41F200FB15500F0BDE8 /* AppDelegate.swift */,
-				E586D421200FB15500F0BDE8 /* TabViewController.swift */,
 				E586D423200FB15500F0BDE8 /* Main.storyboard */,
 				E586D426200FB15500F0BDE8 /* Assets.xcassets */,
 				E586D428200FB15500F0BDE8 /* LaunchScreen.storyboard */,
 				E586D42B200FB15500F0BDE8 /* Info.plist */,
-				E586D431200FE4DA00F0BDE8 /* LogViewController.swift */,
 				E586D433200FE4E900F0BDE8 /* BrowserViewController.swift */,
 				E51BF5F8202DF92100F7BFB9 /* ViewController.swift */,
 			);
@@ -297,12 +291,10 @@
 			files = (
 				E51BF5F1202DF33B00F7BFB9 /* SwiftWebVCActivityChrome.swift in Sources */,
 				E51BF5F5202DF33B00F7BFB9 /* SwiftModalWebVC.swift in Sources */,
-				E586D432200FE4DA00F0BDE8 /* LogViewController.swift in Sources */,
 				E51BF5F6202DF33B00F7BFB9 /* SwiftWebVCActivitySafari.swift in Sources */,
 				E51BF5F9202DF92100F7BFB9 /* ViewController.swift in Sources */,
 				E51BF5F3202DF33B00F7BFB9 /* SwiftWebVCActivity.swift in Sources */,
 				E586D434200FE4E900F0BDE8 /* BrowserViewController.swift in Sources */,
-				E586D422200FB15500F0BDE8 /* TabViewController.swift in Sources */,
 				E586D420200FB15500F0BDE8 /* AppDelegate.swift in Sources */,
 				E51BF5F7202DF33B00F7BFB9 /* SwiftWebVC.swift in Sources */,
 			);
@@ -397,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -449,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -471,6 +463,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = ZeroNetExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rick.ZeroNetExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +488,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = ZeroNetExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rick.ZeroNetExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -17,6 +17,31 @@ enum ZeroNetError: Error {
     case noPeerFound
     case peerReturnsError
 }
+
+extension MutableCollection {
+    /// Shuffles the contents of this collection.
+    mutating func shuffle() {
+        let c = count
+        guard c > 1 else { return }
+        
+        for (firstUnshuffled, unshuffledCount) in zip(indices, stride(from: c, to: 1, by: -1)) {
+            let d: IndexDistance = numericCast(arc4random_uniform(numericCast(unshuffledCount)))
+            let i = index(firstUnshuffled, offsetBy: d)
+            swapAt(firstUnshuffled, i)
+        }
+    }
+}
+
+extension Sequence {
+    /// Returns an array with the contents of this sequence, shuffled.
+    func shuffled() -> [Element] {
+        var result = Array(self)
+        result.shuffle()
+        return result
+    }
+}
+
+
 class Site : NSObject {
     private let context: ZeroNet
     private var siteAddr: String
@@ -45,11 +70,12 @@ class Site : NSObject {
     func start() {
         self.loadPeersFromTracker(trackerIdx: 0, onLoaded: { peerInfos in
             print("Peers loaded - ", peerInfos)
+            
             if peerInfos.count == 0 {
                 self.context.logger.log("Can't load any peers... ", .failed)
                 return
             }
-            self.peerInfos = peerInfos
+            self.peerInfos = peerInfos.shuffled()
             func createPeer(index: Int) {
                 do {
                     guard let peer = self.createPeerFromPeerInfo() else {
@@ -68,27 +94,34 @@ class Site : NSObject {
         })
     }
     
+    func stop(){
+        //TODO
+    }
+    
     func onFileDownloaded(innerPath: String, data: Data){
         if innerPath == "content.json" {
             let bodyJson = JSON(data: data)
             for (file, _) : (String, JSON) in bodyJson["files"] {
                 print(file)
                 self.pendingFileList.append(file)
+                
+            }
+            self.pendingFileList = Array(Set(self.pendingFileList))
+            if self.pendingFileList.contains("index.html"){
+                self.pendingFileList.insert("index.html", at: 0)
             }
         }
         
-        if self.pendingFileList.contains("index.html"){
-            self.pendingFileList.insert("index.html", at: 0)
-        }
-        
+        self.pendingFileList = self.pendingFileList.filter({ item in item != innerPath })
         if self.pendingFileList.count != 0 {
             let fileToRequest = self.pendingFileList[0]
             do {
+                print("Requesting " + fileToRequest)
                 try self.activePeer?.requestFile(innerPath: fileToRequest)
             }catch{
                 self.context.logger.log("Failed to download file - " + fileToRequest, .fileFailed)
             }
-            self.pendingFileList = self.pendingFileList.filter({ item in item != innerPath })
+            
         } else {
             self.context.logger.log("!!!=Congratulations=!!! Site \(self.siteAddr) is downloaded.", .siteCompleted)
         }

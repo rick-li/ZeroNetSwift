@@ -30,6 +30,7 @@ public class ZeroNet : NSObject{
     public let sites:[String]
     public let peerId:String
     public var logger:LoggerProtocol = DefaultLogger()
+    private var runningSites:[Site] = []
     
     public struct Constants {
         static let FILE_PORT: Int = 0 //Can't serve file in ios.
@@ -55,6 +56,12 @@ public class ZeroNet : NSObject{
         for siteAddr in self.sites {
             let site = Site(context: self, siteAddr: siteAddr)
             site.start()
+        }
+    }
+    public func shutdown(){
+        for (index, site) in self.runningSites.enumerated() {
+            site.stop()
+            self.runningSites.remove(at: index)
         }
     }
 }
